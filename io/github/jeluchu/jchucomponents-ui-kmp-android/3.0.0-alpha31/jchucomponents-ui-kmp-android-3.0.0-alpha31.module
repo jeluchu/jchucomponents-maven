@@ -1,0 +1,256 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-ui-kmp/3.0.0-alpha31/jchucomponents-ui-kmp-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-ui-kmp",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-kmp.aar",
+          "url": "jchucomponents-ui-kmp-android-3.0.0-alpha31.aar",
+          "size": 1214357,
+          "sha512": "2b3c701fc4cdf7a940a17276735c8e1fbff48731b38b77b90c99b06eb94c65b32d372947eafb25beff9efe407a5e8cbe94d8298251215d41a7b5efee5f839242",
+          "sha256": "282a90f624aadb6147b5bbf71e2db3469e4f8df0d3fc8f9eb1f7f26d8bc1f0fb",
+          "sha1": "f7ec377eb7a99e42154c88a37de93ddd8380ad47",
+          "md5": "565247c87fe33a888f59e01ad2ca0ab1"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-kmp.aar",
+          "url": "jchucomponents-ui-kmp-android-3.0.0-alpha31.aar",
+          "size": 1214357,
+          "sha512": "2b3c701fc4cdf7a940a17276735c8e1fbff48731b38b77b90c99b06eb94c65b32d372947eafb25beff9efe407a5e8cbe94d8298251215d41a7b5efee5f839242",
+          "sha256": "282a90f624aadb6147b5bbf71e2db3469e4f8df0d3fc8f9eb1f7f26d8bc1f0fb",
+          "sha1": "f7ec377eb7a99e42154c88a37de93ddd8380ad47",
+          "md5": "565247c87fe33a888f59e01ad2ca0ab1"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-ui-kmp-android-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-ui-kmp-android-3.0.0-alpha31-sources.jar",
+          "size": 149455,
+          "sha512": "62ff52004589f3e3d9d2b552dc2bde482539fa2b342d79db79b6032c5fe4b4554b005787ad3e72a439d82c2cee8cb595f9bdd2cb385bf16014b51f6d53f54633",
+          "sha256": "13f532f9cf43291b533ec756c3a7c02df245f24f83672284584771525e57bc28",
+          "sha1": "9216186b2eb4a3fc2d8de0d3fef210dd9cf34bed",
+          "md5": "2235d4f2aa68d7cd73948f5de074ef7c"
+        }
+      ]
+    }
+  ]
+}

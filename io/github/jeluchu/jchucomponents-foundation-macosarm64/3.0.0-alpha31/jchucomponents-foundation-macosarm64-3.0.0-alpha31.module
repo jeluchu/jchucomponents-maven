@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-alpha31/jchucomponents-foundation-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosArm64Main-3.0.0-alpha31.klib",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-alpha31.klib",
+          "size": 91997,
+          "sha512": "19bcfa889e509dbf1dae661c62022ea059c64222167734645d22e1351413d6434d51f38c15a2c889d75781dddf8de49ddbc390a9608e441fe8c9550baff5a499",
+          "sha256": "ecf94e5fbf33a53b6d75350821438996b5ff1ad0bf96055f8a6eee03d342957b",
+          "sha1": "64b02ae09067cf506cf18932914f3889da580c50",
+          "md5": "439ace7ea4a544195ac4c6b2640f717a"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosarm64-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-alpha31-sources.jar",
+          "size": 25967,
+          "sha512": "49baf05a9f45f23af4f06c3d9b9e6005d04378e27ecd56c3c4bccb9ea9950b0d671b118b41a7c55c35d684bf31f75d1d4b357b1205ef6f6b1438741233ccc002",
+          "sha256": "4a8344813301223c0e0a8243914101caaa0232cc556964c04ccba1583814ba03",
+          "sha1": "d07b2ce879961684459c1c28578b023e8e239e55",
+          "md5": "0c60ada5abc25c3b1a5e20ef5c2d6179"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosarm64-3.0.0-alpha31-metadata.jar",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-alpha31-metadata.jar",
+          "size": 5707,
+          "sha512": "e0a15b7e2445076edf296288e25b88180ab10f8da07d91ecf151e86336ce0847109bb6295ef0124cda9be18b9f4a7b32b56914fd0f100f29e247a2609d832261",
+          "sha256": "55f297bb1cda85ae74c2b9ad5d6157e186db50d621d67f38591d5642732bc3e4",
+          "sha1": "61cff42fa675141d3ebce5316853d83e27ca1b96",
+          "md5": "830f0426ae310da404028807397f778d"
+        }
+      ]
+    }
+  ]
+}

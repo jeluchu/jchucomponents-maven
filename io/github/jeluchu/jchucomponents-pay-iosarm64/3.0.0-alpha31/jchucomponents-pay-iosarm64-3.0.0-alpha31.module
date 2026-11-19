@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pay/3.0.0-alpha31/jchucomponents-pay-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pay",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosArm64Main-3.0.0-alpha31.klib",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-alpha31.klib",
+          "size": 22338,
+          "sha512": "0726514dcc36a63b7e1207ac34ad0b00a786f96d8e192e826e1d3043e56ce4b0c6ec2d158432fa5cd335a018a904f6d0e9b82312755871e371c547f97703017a",
+          "sha256": "1681141fa5438ac1be7009957d5b45a1b843303c482d2072fee9058ba856286d",
+          "sha1": "8e01424960bb921092f25bda352850f028cb3643",
+          "md5": "401317272c3bdf344cd73af746af0590"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosarm64-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-alpha31-sources.jar",
+          "size": 6635,
+          "sha512": "36cfbeb619e889574a25d30eb88aa3929fcd236f0a1e48f271c124701d053f966879d8307587f820b2b0feef95f572fbb80739d1918194dcee920fc2f70849f8",
+          "sha256": "8b64fb32be110c216bdb800d96673fddd3647cf7f2ad061143b356dca2fc60cd",
+          "sha1": "14f23a73586b22b861f823e14d75f1b208a174fc",
+          "md5": "c566da207fcbf86c8294d4ccbc3eb517"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosarm64-3.0.0-alpha31-metadata.jar",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-alpha31-metadata.jar",
+          "size": 2555,
+          "sha512": "cfe865d1375f4ca875308b510a25b020572d38f5a3a2ed6667a6cc62502bae996c942363a3d2f7461c5363740fef669a57c2a456ed28c457f38c681c881bb69b",
+          "sha256": "d09f84c710ec460be7d484a5f4e222af57c438c586395be3ae85bd8ac1dcf88c",
+          "sha1": "f0a5b642a481a3296f8c95101a5b28e8f8367d46",
+          "md5": "4b9db8e20d766a9831f442770df425c4"
+        }
+      ]
+    }
+  ]
+}

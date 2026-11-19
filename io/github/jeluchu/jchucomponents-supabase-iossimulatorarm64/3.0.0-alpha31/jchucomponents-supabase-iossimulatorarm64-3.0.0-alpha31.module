@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-supabase/3.0.0-alpha31/jchucomponents-supabase-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-supabase",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase-iosSimulatorArm64Main-3.0.0-alpha31.klib",
+          "url": "jchucomponents-supabase-iossimulatorarm64-3.0.0-alpha31.klib",
+          "size": 152763,
+          "sha512": "0ebc517a8559ec1981ec1c494912ebcebfd77b1fac23d1f0f2aded9c6a1c1807d7031214c3be994734352da3ed6019f92cc9285a1fd52fd966a8b93dc0880fd7",
+          "sha256": "5f320b83fa5a317c9a0d88e64a11acf15b2371ed6769eca9b4615c324550d009",
+          "sha1": "88f6df307e15490b427b79b53c1d4595c07007cd",
+          "md5": "929fa30cce7bd7573d2a817e8b019eb2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-supabase-iossimulatorarm64-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-supabase-iossimulatorarm64-3.0.0-alpha31-sources.jar",
+          "size": 19133,
+          "sha512": "431b11821e801a690de29bbff49508c8789cb31729538877bb33baff1acea3ec4122b8ce4463d088f07fb5bf876ceb1a17b7e0448a9786c8af054a64d85d01f2",
+          "sha256": "1ac0814b68893ab50863b5244fbac7c4b674b079323b6c4056bcf3904d752578",
+          "sha1": "3c2917061f66903ab4d26888b6181b0dac9cc98c",
+          "md5": "1442c8ea93a0f1d5f994ffbb97478949"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase-iossimulatorarm64-3.0.0-alpha31-metadata.jar",
+          "url": "jchucomponents-supabase-iossimulatorarm64-3.0.0-alpha31-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

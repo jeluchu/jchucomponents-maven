@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-monitoring/3.0.0-alpha31/jchucomponents-monitoring-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-monitoring",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring.aar",
+          "url": "jchucomponents-monitoring-android-3.0.0-alpha31.aar",
+          "size": 31281,
+          "sha512": "f21029b8c41de20daea1c97ed1afc218a9784e162daf5b7bbb4e042df9a6f9c2aa6fd841ae91fb4a77e81c61345bc1b7f37639db7f003195d434ab002c56ce51",
+          "sha256": "906b50aac8663512a8902272c4c71dfd825223403fc8acc344d58eff7ae3f536",
+          "sha1": "437a975458b1c00b27d5f91c437b81534e096616",
+          "md5": "d6839e1d73e78da9de14b9ea14c1b6da"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring.aar",
+          "url": "jchucomponents-monitoring-android-3.0.0-alpha31.aar",
+          "size": 31281,
+          "sha512": "f21029b8c41de20daea1c97ed1afc218a9784e162daf5b7bbb4e042df9a6f9c2aa6fd841ae91fb4a77e81c61345bc1b7f37639db7f003195d434ab002c56ce51",
+          "sha256": "906b50aac8663512a8902272c4c71dfd825223403fc8acc344d58eff7ae3f536",
+          "sha1": "437a975458b1c00b27d5f91c437b81534e096616",
+          "md5": "d6839e1d73e78da9de14b9ea14c1b6da"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-android-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-monitoring-android-3.0.0-alpha31-sources.jar",
+          "size": 6075,
+          "sha512": "b227791ac5966f65958c533226f04f0779753fcadba8a0fa4fbc4ad589ab02d9aee2408ecb32b406f254af026f21f251ccd3da371f49def578a85d1e4f8c6f7e",
+          "sha256": "0a9c664b8b730fbdb711fb2203aab339b93c388d09e0b1f1b15a526c2da49d0b",
+          "sha1": "e67eff40323afe3fbb214078944f0cf3f75734eb",
+          "md5": "d2c0e38b9660d69c8fb204ba4a41bc1c"
+        }
+      ]
+    }
+  ]
+}

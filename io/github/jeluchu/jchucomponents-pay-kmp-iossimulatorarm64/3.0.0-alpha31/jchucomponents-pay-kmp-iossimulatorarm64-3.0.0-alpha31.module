@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pay-kmp/3.0.0-alpha31/jchucomponents-pay-kmp-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pay-kmp",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-kmp-iosSimulatorArm64Main-3.0.0-alpha31.klib",
+          "url": "jchucomponents-pay-kmp-iossimulatorarm64-3.0.0-alpha31.klib",
+          "size": 37689,
+          "sha512": "d4628986cb9b986d633aed2369234400c6a38862cdce5627dfeb82c731d8a046cf095bb6b4fe3ed249b62032f1c287409a2b5d0a98925f4fe8a81f9be18e375e",
+          "sha256": "7986cc8968f887ae548e37cf1f72e0f6873c5fe413ced810cda3091e5778be67",
+          "sha1": "116539d6338711e2f0e265901ddb2816e759ab11",
+          "md5": "aaefdfdea7e2dc3db8e342dbad694af9"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pay-kmp-iossimulatorarm64-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-pay-kmp-iossimulatorarm64-3.0.0-alpha31-sources.jar",
+          "size": 7677,
+          "sha512": "b2f00f02f459661cd2ccbefdf311f9c574490cbd947ab8aa5f2fec80b5afb82ee1da8bdf5ff8ca4b865bbe9dbbd6ed54f27932d06dcfd6be231d56c2e12a1fa6",
+          "sha256": "eaf7ac9836931f7d8ea05ef89c52e1de07de87aa32d4c837c92af5da26345fa0",
+          "sha1": "f461541105ae7bb7a310acd68a29fac5f30eb65a",
+          "md5": "6254da4835ccdd7495530f68e1699351"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-kmp-iossimulatorarm64-3.0.0-alpha31-metadata.jar",
+          "url": "jchucomponents-pay-kmp-iossimulatorarm64-3.0.0-alpha31-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-prefs/3.0.0-alpha31/jchucomponents-prefs-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-prefs",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-iosArm64Main-3.0.0-alpha31.klib",
+          "url": "jchucomponents-prefs-iosarm64-3.0.0-alpha31.klib",
+          "size": 37901,
+          "sha512": "49680875fac58c959ee2c37d366bd59d0aec9caacf3a626fdfbbbf180e6dcb5a43e11f37b423f7a8885cb8d3300a6969f32eb3d0581c9aa31ad95b67df752ec6",
+          "sha256": "fb76f90496b69c227befd8bf5a3661ceeed3b7b5731449bee19846ffc6e758fb",
+          "sha1": "6bdce9369b668676d10ee311899f90f6ebda61ae",
+          "md5": "47d133f1a5c5b277de6b68800d84d077"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-prefs-iosarm64-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-prefs-iosarm64-3.0.0-alpha31-sources.jar",
+          "size": 8371,
+          "sha512": "231582c88e2868b59f3fb48da1e21363e082095bbe6d99062ccd6b6d1cfaa14505c8797a2fda87bd1c8e17456c1da4b81b4b3eb9346701f924e71fac898ef445",
+          "sha256": "98ccb61bdcbb97952e519605edd20d4660c4a565381b3729b5b5224c5baff50f",
+          "sha1": "1e9282b09271f6665139bdda697814e2d67a1094",
+          "md5": "769cede66c5540cb7248ff14c965534a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-iosarm64-3.0.0-alpha31-metadata.jar",
+          "url": "jchucomponents-prefs-iosarm64-3.0.0-alpha31-metadata.jar",
+          "size": 2676,
+          "sha512": "295aa97c74522d3310ca68579c6403b13ae810ba06969a760344aae066e23e36db6eb06dca7996a77256224afd108ca4dd559b1200d9f711516c99a64beec231",
+          "sha256": "4aea0a9a62bcdc226e74b717e7b234992cea01eab4e313f01b2f9d4d0f24e12b",
+          "sha1": "dec110a955336097c5af3b03c192ec74669fff13",
+          "md5": "9124098ae4faedb880dc656574327530"
+        }
+      ]
+    }
+  ]
+}

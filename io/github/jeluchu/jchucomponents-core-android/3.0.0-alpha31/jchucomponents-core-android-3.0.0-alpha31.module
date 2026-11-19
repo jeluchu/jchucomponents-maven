@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-core/3.0.0-alpha31/jchucomponents-core-3.0.0-alpha31.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-core",
+    "version": "3.0.0-alpha31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-core.aar",
+          "url": "jchucomponents-core-android-3.0.0-alpha31.aar",
+          "size": 74272,
+          "sha512": "b9661f963877a490f8501e6127acf9b289a2dc6cec17c0d184d5ac10286355318e5e93eafd9041011bf090159d2e1db37e5462acc6f9b5a93455cf4499494210",
+          "sha256": "9c1d9a01fe2bcb39356a1a185308b7fcf70765a00ad5c618fcb698325388f413",
+          "sha1": "9ddbf8b57506765f131f96fd89151baf382a83ea",
+          "md5": "c762002ae337e65d8a2c58dc183a3bb0"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-core.aar",
+          "url": "jchucomponents-core-android-3.0.0-alpha31.aar",
+          "size": 74272,
+          "sha512": "b9661f963877a490f8501e6127acf9b289a2dc6cec17c0d184d5ac10286355318e5e93eafd9041011bf090159d2e1db37e5462acc6f9b5a93455cf4499494210",
+          "sha256": "9c1d9a01fe2bcb39356a1a185308b7fcf70765a00ad5c618fcb698325388f413",
+          "sha1": "9ddbf8b57506765f131f96fd89151baf382a83ea",
+          "md5": "c762002ae337e65d8a2c58dc183a3bb0"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-core-android-3.0.0-alpha31-sources.jar",
+          "url": "jchucomponents-core-android-3.0.0-alpha31-sources.jar",
+          "size": 19537,
+          "sha512": "764be0a928115cd6bba7ccc7f6c0490d1ae654dd0b3f7eb3c77ea7261638cde2ef9b6a075ca4217d0352345c2c3893e71a7af773a8ff67a30082b7cec0c7e492",
+          "sha256": "aa97f3164677b2e6b5809ee768a30b033b777c82d1ce8650abc582cf1f35e305",
+          "sha1": "b17fb8403b569a582cebac6c4e768647ae21fd8f",
+          "md5": "74b9aecad7405bf8f06e112610dff8ed"
+        }
+      ]
+    }
+  ]
+}
