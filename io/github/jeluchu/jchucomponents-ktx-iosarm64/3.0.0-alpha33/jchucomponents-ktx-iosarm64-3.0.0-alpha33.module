@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-ktx/3.0.0-alpha33/jchucomponents-ktx-3.0.0-alpha33.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-ktx",
+    "version": "3.0.0-alpha33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ktx-iosArm64Main-3.0.0-alpha33.klib",
+          "url": "jchucomponents-ktx-iosarm64-3.0.0-alpha33.klib",
+          "size": 17982,
+          "sha512": "1fcb64730754b546cd4c6a4f7fd34e4cc16779ff9ff427a25ab4f3c959abc4a8b1359ebe56d2eea869805b11c525247f2a1b8f1b8e70812558350b1b44d87691",
+          "sha256": "d4165296cc7260ddcf611003cd0d12bfa71f0d83a56501fdd83c41b24f4ce7da",
+          "sha1": "c1d37180ff6d50b9845c431ea1f75670bcb4590d",
+          "md5": "922e73011516708f4b67ab47b88b9d4f"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-ktx-iosarm64-3.0.0-alpha33-sources.jar",
+          "url": "jchucomponents-ktx-iosarm64-3.0.0-alpha33-sources.jar",
+          "size": 3491,
+          "sha512": "a0d982fb16ca04cdca21a1deffc022641262a7fee5522051e9fdaf3c8b6ea404a1c338bc772900f50e74c51e57e74c15f82352cbb8a1250a29f0f108cec43f40",
+          "sha256": "3b844311b635b0a2276ab4a57a254dff9ea292cd5ff1d0e81260861a85ea4505",
+          "sha1": "79c2031bee92f33a5ce1808769827f494b856a9f",
+          "md5": "59fb927660257e487e6907481e65bfa9"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ktx-iosarm64-3.0.0-alpha33-metadata.jar",
+          "url": "jchucomponents-ktx-iosarm64-3.0.0-alpha33-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

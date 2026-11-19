@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pdf-kmp/3.0.0-alpha33/jchucomponents-pdf-kmp-3.0.0-alpha33.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pdf-kmp",
+    "version": "3.0.0-alpha33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf-kmp.aar",
+          "url": "jchucomponents-pdf-kmp-android-3.0.0-alpha33.aar",
+          "size": 82376,
+          "sha512": "e8535247bc447849303d0d5949575cb0a3961dcf87b2a4c9113db6b1821fefdcda63ae9280437b48a1a977e23d44777443ecaba15cc8add8869c27e42c7de06d",
+          "sha256": "31bf7f46eadec0407c66e735c028d52cd0d00088f546da433bccb1a5d1ca1880",
+          "sha1": "aa5cc56282b4ec68375196263748fb36a53b4532",
+          "md5": "068356d0b08202ba542111ebf54edc70"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui-kmp",
+          "version": {
+            "requires": "3.0.0-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf-kmp.aar",
+          "url": "jchucomponents-pdf-kmp-android-3.0.0-alpha33.aar",
+          "size": 82376,
+          "sha512": "e8535247bc447849303d0d5949575cb0a3961dcf87b2a4c9113db6b1821fefdcda63ae9280437b48a1a977e23d44777443ecaba15cc8add8869c27e42c7de06d",
+          "sha256": "31bf7f46eadec0407c66e735c028d52cd0d00088f546da433bccb1a5d1ca1880",
+          "sha1": "aa5cc56282b4ec68375196263748fb36a53b4532",
+          "md5": "068356d0b08202ba542111ebf54edc70"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pdf-kmp-android-3.0.0-alpha33-sources.jar",
+          "url": "jchucomponents-pdf-kmp-android-3.0.0-alpha33-sources.jar",
+          "size": 12873,
+          "sha512": "93828cf7b1532d0649ccf730fcd6ebe0b5e7a1e7fe86ba273a287b67f75a0fed256fee65f5795fbc13de019cc9bef6cda4af6fa7774f1ae6c74e3b0d2a2bcc39",
+          "sha256": "41f2312060d3c026ff4cd76eb7029bbdd9c265392e7c21b22522b635af8a82fd",
+          "sha1": "cdb0ed26370dd5b190462e2625170c0c41b8fc3d",
+          "md5": "f2990d56c25341e718ba10108f555435"
+        }
+      ]
+    }
+  ]
+}

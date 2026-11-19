@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-navigation3/3.0.0-alpha33/jchucomponents-navigation3-3.0.0-alpha33.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-navigation3",
+    "version": "3.0.0-alpha33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-iosSimulatorArm64Main-3.0.0-alpha33.klib",
+          "url": "jchucomponents-navigation3-iossimulatorarm64-3.0.0-alpha33.klib",
+          "size": 11148,
+          "sha512": "ffa130a4eb485bdb295076b86a74d0ccedadaf16b2d3601a85721e25a200dc9912380b3d5eed3eee707edf400a0191d8f74868431875da956f8ace4c9a19dafd",
+          "sha256": "585b9df81cdb64176babe8252cdcdcd443f1e47c61b20983f141dea4f2775281",
+          "sha1": "f18d405a8902b21039433e7eaf4007e89d2f5c69",
+          "md5": "6cf8336872f2ba93e198783d5c3f0fc6"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-iossimulatorarm64-3.0.0-alpha33-sources.jar",
+          "url": "jchucomponents-navigation3-iossimulatorarm64-3.0.0-alpha33-sources.jar",
+          "size": 2994,
+          "sha512": "bafe49575401621e713ead8edf1f4bf1eab6dc65c3d6260ae867c6d1d3681ddd2d7e9ad3fc40d13a8030d1cc0acf09cc72d4cd2de80243293a0c6577445069c7",
+          "sha256": "25607f03cc1f04f087b2eb176508969f8c6643e750a60e26780fa36ad224a89b",
+          "sha1": "e1bda1dadc86bf2712128c9dbf99c925c79bf55e",
+          "md5": "1e137ef10ac14a9f97d82e59e1fb523d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-iossimulatorarm64-3.0.0-alpha33-metadata.jar",
+          "url": "jchucomponents-navigation3-iossimulatorarm64-3.0.0-alpha33-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

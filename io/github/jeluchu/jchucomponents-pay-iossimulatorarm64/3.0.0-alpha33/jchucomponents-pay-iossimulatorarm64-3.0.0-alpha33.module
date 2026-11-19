@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pay/3.0.0-alpha33/jchucomponents-pay-3.0.0-alpha33.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pay",
+    "version": "3.0.0-alpha33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosSimulatorArm64Main-3.0.0-alpha33.klib",
+          "url": "jchucomponents-pay-iossimulatorarm64-3.0.0-alpha33.klib",
+          "size": 22383,
+          "sha512": "4afb0e5605962cc1425fc7eedb0ae4600cc2bcb479bd353b03f9ec303053a9ae7042f4e8d6892eefc465a2b3a0743a799c15508955da1983fea9a2da08d39b69",
+          "sha256": "747a4657702f14a6c303f0ac679ce9f13e4932bbec13d070ed1be2178942d919",
+          "sha1": "ee45593ec1449de2b0357b4da93051198b4a7f0a",
+          "md5": "fd2bcdb39de58bb4cfbcd418cff64e01"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pay-iossimulatorarm64-3.0.0-alpha33-sources.jar",
+          "url": "jchucomponents-pay-iossimulatorarm64-3.0.0-alpha33-sources.jar",
+          "size": 5885,
+          "sha512": "a63342e7b5121b9b69df8e52fc1c5b75090b10b5637d939fba0153f68ef94e73f9487960bfc74415d36f08ce474e39980c8e5b904dd4ddf4dde18b6c309d1424",
+          "sha256": "0a0fdab02ef9ba7999e0b97dad4ffd08bb504c634ef36998701e2b96241261b7",
+          "sha1": "51204d5f06a603637fcaa0a7e4b281c870384dcd",
+          "md5": "b0b73d27e7a0f27a46b7559820eb4e1e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iossimulatorarm64-3.0.0-alpha33-metadata.jar",
+          "url": "jchucomponents-pay-iossimulatorarm64-3.0.0-alpha33-metadata.jar",
+          "size": 2555,
+          "sha512": "cfe865d1375f4ca875308b510a25b020572d38f5a3a2ed6667a6cc62502bae996c942363a3d2f7461c5363740fef669a57c2a456ed28c457f38c681c881bb69b",
+          "sha256": "d09f84c710ec460be7d484a5f4e222af57c438c586395be3ae85bd8ac1dcf88c",
+          "sha1": "f0a5b642a481a3296f8c95101a5b28e8f8367d46",
+          "md5": "4b9db8e20d766a9831f442770df425c4"
+        }
+      ]
+    }
+  ]
+}
