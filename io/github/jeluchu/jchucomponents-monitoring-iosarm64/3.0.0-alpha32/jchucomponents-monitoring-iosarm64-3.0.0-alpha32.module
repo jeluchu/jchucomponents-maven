@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-monitoring/3.0.0-alpha32/jchucomponents-monitoring-3.0.0-alpha32.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-monitoring",
+    "version": "3.0.0-alpha32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iosArm64Main-3.0.0-alpha32.klib",
+          "url": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32.klib",
+          "size": 29764,
+          "sha512": "0293b7f16a861128afbe1f576a78edf64bdc0fc36988f07d62616791251a1801f9cd6f786cbf8f7aab41a3383562f61662b8d916af059533084df6c1fd48a650",
+          "sha256": "998c0c50d227db8c8afddfdf5c2b35e0f8d735b23f0176cdab1d15040208cfaa",
+          "sha1": "9097cdeea97f871cde9813833cc7c881ed31039d",
+          "md5": "e2442a0e0d2779563fd435c115e3c62b"
+        },
+        {
+          "name": "jchucomponents-monitoring-iosArm64Cinterop-jchuObjcMain-3.0.0-alpha32.klib",
+          "url": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32-cinterop-jchuObjc.klib",
+          "size": 7914,
+          "sha512": "056076c24d1cd7eb0e6d669421c469cbf26c61c84d538d976ea32d6cac0e79a4cbc96c7731af45692213f6148741dc66cb268982b5d281c95103fd52dae00642",
+          "sha256": "4940e561b58d0065272b7020c12bcdf8732c44f7c178e6f505f908a76cbd7199",
+          "sha1": "8518986b4bb854b8baf53314c507cb05e8d14014",
+          "md5": "cfc24d4928fa1df0518e6e72496f9ec8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32-sources.jar",
+          "url": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32-sources.jar",
+          "size": 6777,
+          "sha512": "656cc5bae6facf846117ac2501d0202084ae0dcecb1949225050e69dbaf0b147b3b33b100e68fc7cd0eae27f80de1a58c3ddb2f55b074580e457f0f0b6932045",
+          "sha256": "70f4b8588114a47668b6d0b7c3afa79e9074f6d7599fef3fd2a013693ee0b6bd",
+          "sha1": "2b227306623bff9e353a70bd263547712d2c8eb2",
+          "md5": "076cce8dd4d9d02415ee59ffcbd8b526"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32-metadata.jar",
+          "url": "jchucomponents-monitoring-iosarm64-3.0.0-alpha32-metadata.jar",
+          "size": 21867,
+          "sha512": "37be12aea96cec1e653b518baf6eef3c07696538693c8bbdeeb726fa492db5f14988b4dda271a344730239794f94d817f8f8ba5768a2cd436ab682c06904f0f2",
+          "sha256": "a320d073575f4b6442f4b589f5caadeedc2015062b58fca74d71dd8d5f125b38",
+          "sha1": "3a3493ab6e99d4270eaee5b47007b0aebe414641",
+          "md5": "7a7ebcb8d0aecb614ea610b6e4ddb61c"
+        }
+      ]
+    }
+  ]
+}

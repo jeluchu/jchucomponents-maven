@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-prefs/3.0.0-alpha32/jchucomponents-prefs-3.0.0-alpha32.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-prefs",
+    "version": "3.0.0-alpha32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs.aar",
+          "url": "jchucomponents-prefs-android-3.0.0-alpha32.aar",
+          "size": 88126,
+          "sha512": "e00983380a3eb4033aa99d2dfee384ca55e451e7839f5ea5f9ef08b3671e713be5b110a3b3bfd830e930abce7f915ea98b49e7224994545a80f92d82d2bd91f7",
+          "sha256": "4cef76f3bde9b949f39229f8b326433436f36f945a707eb87609cda8d4cc87e9",
+          "sha1": "052507462c69d7c961180fbb0c4b3fc539eb659f",
+          "md5": "50f0661a3e619f9bad35899970ec71f7"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs.aar",
+          "url": "jchucomponents-prefs-android-3.0.0-alpha32.aar",
+          "size": 88126,
+          "sha512": "e00983380a3eb4033aa99d2dfee384ca55e451e7839f5ea5f9ef08b3671e713be5b110a3b3bfd830e930abce7f915ea98b49e7224994545a80f92d82d2bd91f7",
+          "sha256": "4cef76f3bde9b949f39229f8b326433436f36f945a707eb87609cda8d4cc87e9",
+          "sha1": "052507462c69d7c961180fbb0c4b3fc539eb659f",
+          "md5": "50f0661a3e619f9bad35899970ec71f7"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-prefs-android-3.0.0-alpha32-sources.jar",
+          "url": "jchucomponents-prefs-android-3.0.0-alpha32-sources.jar",
+          "size": 7610,
+          "sha512": "193972ee3e9cb30d5fd9f498fff71ece37914087f0f6f2706a8925a70b306419999ad49969dcbfb87c602c60cc7b57e2f52ac05bfee0a4b506185c9497022abb",
+          "sha256": "af3e0d015cd4f51f1c1c5907109f9675e30376a45b908269577852e567d715a2",
+          "sha1": "3178615501aef28ed1eb3971572e1902ec695808",
+          "md5": "4125aef313f5062a86e6fae1eed8a00c"
+        }
+      ]
+    }
+  ]
+}

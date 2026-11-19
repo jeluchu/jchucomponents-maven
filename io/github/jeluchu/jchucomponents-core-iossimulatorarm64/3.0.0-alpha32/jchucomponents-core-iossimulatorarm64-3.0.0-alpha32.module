@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-core/3.0.0-alpha32/jchucomponents-core-3.0.0-alpha32.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-core",
+    "version": "3.0.0-alpha32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-core-iosSimulatorArm64Main-3.0.0-alpha32.klib",
+          "url": "jchucomponents-core-iossimulatorarm64-3.0.0-alpha32.klib",
+          "size": 36541,
+          "sha512": "d702fc1dfa59e6ce754a56cc7a2187940ec0fc95221fbbf5990c1e56567d059eea08faece8d3fba54035c103fa2557d0d3ee298c3cb0464af9663da0c4a4670a",
+          "sha256": "9817978a0cbb8ac7ed5a9f680c449e24838c11debc5b6f658793e0ac241ff7a0",
+          "sha1": "7a229b1d2a2ddd7acfc346dd1e54bb849ec1bb74",
+          "md5": "4f5e283304b37fcc3ce4a58b5589a0e2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-core-iossimulatorarm64-3.0.0-alpha32-sources.jar",
+          "url": "jchucomponents-core-iossimulatorarm64-3.0.0-alpha32-sources.jar",
+          "size": 8916,
+          "sha512": "a028aaee634c3c3dbae5c03cb60fe7a03b28fadff8797d2dc88e43892e46a6ad474fe3509374405a633f24baaa4f482cbf09be02fc25a3b1658c60da1660a438",
+          "sha256": "956b37ef6e03bc80196e92b9a040eb51e450828524a7248c85a89a744aac3052",
+          "sha1": "3fe97e58adb4453538e19c927281db36e28f8b9e",
+          "md5": "443061fef9e9956a6375c9a9eb415dff"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-core-iossimulatorarm64-3.0.0-alpha32-metadata.jar",
+          "url": "jchucomponents-core-iossimulatorarm64-3.0.0-alpha32-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-network",
+    "version": "3.0.0-alpha32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network-metadata-3.0.0-alpha32.jar",
+          "url": "jchucomponents-network-3.0.0-alpha32.jar",
+          "size": 13420,
+          "sha512": "19a469dfc67f8dc6fb3abae5d9648ce90be74e2cae9873e777c111f088b7f36b4976be21a61a8358811ad06565fc2618b5637aefdbf98593fbc5ee39dec4d366",
+          "sha256": "58987ae0daeade432476aa31936552da7e26673e419a2e775e81e42e3cb5729e",
+          "sha1": "739b03f4a9de35203cc3365ddfee3ddb6c6069b0",
+          "md5": "8138dbb2225ffd9f61892b32bdd2ba2c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-network-kotlin-3.0.0-alpha32-sources.jar",
+          "url": "jchucomponents-network-3.0.0-alpha32-sources.jar",
+          "size": 13949,
+          "sha512": "862343a55b84d6fdf243635214314ea5759ae82353a5ff2bd1fa6eb252430a71b1f1b44c77db77af419a9c481a792a636afa63bf3213ac3f2441881da8ae79f1",
+          "sha256": "5c3ae84bb60b3fe7fe5bc1405567b903acb16a017d05871852a6e52677a509ea",
+          "sha1": "be3cadcafbe797dcede15e66650bc5df1cd00b5c",
+          "md5": "c33c95377fbcad9fee2599d4ddf9a5b6"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-android/3.0.0-alpha32/jchucomponents-network-android-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-android",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-android/3.0.0-alpha32/jchucomponents-network-android-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-android",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-android/3.0.0-alpha32/jchucomponents-network-android-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-android",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iosarm64/3.0.0-alpha32/jchucomponents-network-iosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iosarm64/3.0.0-alpha32/jchucomponents-network-iosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iosarm64/3.0.0-alpha32/jchucomponents-network-iosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iossimulatorarm64/3.0.0-alpha32/jchucomponents-network-iossimulatorarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iossimulatorarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iossimulatorarm64/3.0.0-alpha32/jchucomponents-network-iossimulatorarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iossimulatorarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-iossimulatorarm64/3.0.0-alpha32/jchucomponents-network-iossimulatorarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-iossimulatorarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-jvm/3.0.0-alpha32/jchucomponents-network-jvm-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-jvm",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-jvm/3.0.0-alpha32/jchucomponents-network-jvm-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-jvm",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-jvm/3.0.0-alpha32/jchucomponents-network-jvm-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-jvm",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-macosarm64/3.0.0-alpha32/jchucomponents-network-macosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-macosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-macosarm64/3.0.0-alpha32/jchucomponents-network-macosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-macosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-network-macosarm64/3.0.0-alpha32/jchucomponents-network-macosarm64-3.0.0-alpha32.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-network-macosarm64",
+        "version": "3.0.0-alpha32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-navigation3/3.0.0-alpha32/jchucomponents-navigation3-3.0.0-alpha32.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-navigation3",
+    "version": "3.0.0-alpha32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-alpha32.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-alpha32.jar",
+          "size": 61026,
+          "sha512": "beae82a8d9db924a6ec8ce8b7818354eb2b4215822699843b0c54b2f4fc359b3b57ceaa2b479f0584dfb1e90d9125d666049bdce57df78d061df48adf2d98a60",
+          "sha256": "39a538ab8739730e39823cb7a6c60d3eb3f4e472fae64b38dc0ea9846e28fe52",
+          "sha1": "68e1be51ae16c8a74d597887709bae1ac1f4cb7d",
+          "md5": "16385c0f0a30a63b1d22649be7f0b6d7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-alpha32.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-alpha32.jar",
+          "size": 61026,
+          "sha512": "beae82a8d9db924a6ec8ce8b7818354eb2b4215822699843b0c54b2f4fc359b3b57ceaa2b479f0584dfb1e90d9125d666049bdce57df78d061df48adf2d98a60",
+          "sha256": "39a538ab8739730e39823cb7a6c60d3eb3f4e472fae64b38dc0ea9846e28fe52",
+          "sha1": "68e1be51ae16c8a74d597887709bae1ac1f4cb7d",
+          "md5": "16385c0f0a30a63b1d22649be7f0b6d7"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-alpha32-sources.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-alpha32-sources.jar",
+          "size": 15045,
+          "sha512": "14a3f11c63c23852a48dc3ca68d8f4a27d322a8844a5c99c96bc588057b74014e6a058597424ee4993f0b41906fde53f3a524b2741a1574693fe0634546df014",
+          "sha256": "f2c28c3e2243ff97deb337740e9e1e715b3cc35a6b5a61788203ea32fdce1bcc",
+          "sha1": "cd73d53ec2ddb3aaa9a64e96d879610faba47833",
+          "md5": "dd6c428538455237d02773c194ef723b"
+        }
+      ]
+    }
+  ]
+}
