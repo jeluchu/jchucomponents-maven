@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-alpha34/jchucomponents-foundation-3.0.0-alpha34.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-alpha34",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation.aar",
+          "url": "jchucomponents-foundation-android-3.0.0-alpha34.aar",
+          "size": 63005,
+          "sha512": "80fd8344470da207cfbd6dec9bb6c3c70bed65653e2ac6d695da0c6d81d09ce3521885f73ca2301a3abc55c0353223b7f9855dfd7f47f3e91cf24ecbb2b2fee5",
+          "sha256": "708f66aef4a1bd843c5f30842326f651d6fb9c1aac5356f88954a44fcd14326e",
+          "sha1": "5f9ca530a1813f3b713dce1d4471ff0091beb13d",
+          "md5": "3a3f0cedc474395d7a4204498a971e0c"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation.aar",
+          "url": "jchucomponents-foundation-android-3.0.0-alpha34.aar",
+          "size": 63005,
+          "sha512": "80fd8344470da207cfbd6dec9bb6c3c70bed65653e2ac6d695da0c6d81d09ce3521885f73ca2301a3abc55c0353223b7f9855dfd7f47f3e91cf24ecbb2b2fee5",
+          "sha256": "708f66aef4a1bd843c5f30842326f651d6fb9c1aac5356f88954a44fcd14326e",
+          "sha1": "5f9ca530a1813f3b713dce1d4471ff0091beb13d",
+          "md5": "3a3f0cedc474395d7a4204498a971e0c"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-android-3.0.0-alpha34-sources.jar",
+          "url": "jchucomponents-foundation-android-3.0.0-alpha34-sources.jar",
+          "size": 24825,
+          "sha512": "7b4c3f04662b216d8c49416bd15f04e56faaad86ef28d5fdfe0f8d140e314ff8ab1e4cfe4be118e1d39d01a4222faeaab9eab3a986e06bac2efefaa6b67ffa61",
+          "sha256": "abbaddf52bd9eb1f301c52af7b8b1b7339374b5b5bcba10928b0c98626739ee0",
+          "sha1": "82e0314bea645a3be48b9c4e3fe74e6a679e7e2a",
+          "md5": "df031de8a192dcc95afe13fa9e3236df"
+        }
+      ]
+    }
+  ]
+}

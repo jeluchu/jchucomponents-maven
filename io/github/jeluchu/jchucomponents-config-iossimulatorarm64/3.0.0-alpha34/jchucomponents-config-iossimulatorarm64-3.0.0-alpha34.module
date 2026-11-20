@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-config/3.0.0-alpha34/jchucomponents-config-3.0.0-alpha34.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-config",
+    "version": "3.0.0-alpha34",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-iosSimulatorArm64Main-3.0.0-alpha34.klib",
+          "url": "jchucomponents-config-iossimulatorarm64-3.0.0-alpha34.klib",
+          "size": 15280,
+          "sha512": "e79cadbc2c0506c580aecc6f98f24ea5ab1ec6810039bc9d208874e43d4827faf3ba6dde5f515de139419dc246fc3de662bbf19bda4efbdabebef34cc9690c09",
+          "sha256": "0c52bb344dcc7e3f60cfcc20e4ad333e890c179c97f76ee67cb338fb97e36841",
+          "sha1": "d9c0f8f3a6349c69552f9887b23b6b2b89374c20",
+          "md5": "d656f46287b106f57f155c63eae59700"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-config-iossimulatorarm64-3.0.0-alpha34-sources.jar",
+          "url": "jchucomponents-config-iossimulatorarm64-3.0.0-alpha34-sources.jar",
+          "size": 4660,
+          "sha512": "f8ef7f03f16a95b91609b7968431693f651587a7c4ab90d0bc9d678a5aef9665c623323481d25e75f84da8648908e578eea89ca49de337fa9b5bca363f835fc2",
+          "sha256": "c33f1d694d05a07267e076ab95f794ecff7f92bae7dea11414d8a1ff491850e0",
+          "sha1": "8e7ad0853f521cddf3f8938102f70fdec3bb700b",
+          "md5": "d5917d1f6e787e442e0ec0ae07f61b8a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-iossimulatorarm64-3.0.0-alpha34-metadata.jar",
+          "url": "jchucomponents-config-iossimulatorarm64-3.0.0-alpha34-metadata.jar",
+          "size": 2568,
+          "sha512": "b56961e8a2dba4ae46175c07692d91ec653afb32f78b7f31b3f2c76e750cb1e2ba2f7d8e996628a11862baa462d4ac90d81f05c967ada04028225dd60446012b",
+          "sha256": "3082e8b84cd8a74b1a9ede6fc8bba0177a1e2fc4488269d8248b50f456144e41",
+          "sha1": "2c8a6bf98d01757219d8ebaa918ac6ccacadd9ca",
+          "md5": "8c50e435d4f942b2944e08889493e5c7"
+        }
+      ]
+    }
+  ]
+}

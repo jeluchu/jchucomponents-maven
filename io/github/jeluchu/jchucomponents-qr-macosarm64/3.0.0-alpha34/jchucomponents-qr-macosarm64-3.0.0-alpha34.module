@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-qr/3.0.0-alpha34/jchucomponents-qr-3.0.0-alpha34.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-qr",
+    "version": "3.0.0-alpha34",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-qr-macosArm64Main-3.0.0-alpha34.klib",
+          "url": "jchucomponents-qr-macosarm64-3.0.0-alpha34.klib",
+          "size": 261655,
+          "sha512": "2c67e1607935db8bcd97f77e4511d8471858c7b5e9b2e3d925e2db9a373bd3b56183fd049ce2adc0ef8c8a253fcc6f7812f43c515d0740e8248f30f5ae5c0d66",
+          "sha256": "fea10200f92d3b669e2df42d505834c7bc2dc8486230008954080c3e3d667e54",
+          "sha1": "745f93997e4813e9cd633c230944f28278de7870",
+          "md5": "d34e4e9446563e22f21a4e0164e823f0"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-qr-macosarm64-3.0.0-alpha34-sources.jar",
+          "url": "jchucomponents-qr-macosarm64-3.0.0-alpha34-sources.jar",
+          "size": 85840,
+          "sha512": "12a5904557a94fa7c622d7ec98b1af6dcfbdca57acc565633dd06af229f056b2ea3165f4673af1e57a3083c5f8c9526eaa402466c0589903f820fb7714dd61c3",
+          "sha256": "71a0c301dcad0d9bd72f7be44d595c112191086c0b0d51af93f2537982719e7b",
+          "sha1": "38f42acfe12c331cc631134c5ebb60227fd2ae89",
+          "md5": "57a7b157d38cb4c04f65bea39c1d1699"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-qr-macosarm64-3.0.0-alpha34-metadata.jar",
+          "url": "jchucomponents-qr-macosarm64-3.0.0-alpha34-metadata.jar",
+          "size": 2513,
+          "sha512": "351949de61b5a914bbbe9ef1e1ecdc14a86eb5480ca9de8a88fc94c9cce720e7922a7afd93a671c336511b706183be1d5f0dac8c86c464ebc9ca24893c5032e8",
+          "sha256": "67aed711b11553d8e2b4b30fac29a8aa308e8db63748a0c77766a46bc97b132b",
+          "sha1": "92f2dd7a599c20a10194c8b5adbcd0ab90970441",
+          "md5": "5dcd3a66f1023642cb67fc65b7a66504"
+        }
+      ]
+    }
+  ]
+}
