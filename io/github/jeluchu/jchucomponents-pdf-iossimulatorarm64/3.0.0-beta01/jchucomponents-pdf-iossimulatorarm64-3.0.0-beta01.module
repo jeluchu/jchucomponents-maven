@@ -1,0 +1,344 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pdf/3.0.0-beta01/jchucomponents-pdf-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pdf",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf-iosSimulatorArm64Main-3.0.0-beta01.klib",
+          "url": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01.klib",
+          "size": 70886,
+          "sha512": "3c995993d337cafe1804487027ffe626a8a99f8de871c9059b64d4012dc7fe0536f733da1b04402216e691050cfab21aa64ede54d9b39b5633cfb5058eb7b680",
+          "sha256": "88ce6958be938f479112152caa43b6de9026462619adb942e4402a2706607830",
+          "sha1": "f0612e9ffb050b35c4493506b327663787c65d23",
+          "md5": "5dee0313135735a6b356ccbccd0e16bf"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "size": 12507,
+          "sha512": "c3dbfa0919a5af09db67c0b66d4b82e89e56a9f91d2fffb2d7f0450aeeb6d92019326348162bc578b917db474dd8c8bbf6b9f49a15417e3998ab3dacaa59e446",
+          "sha256": "aef86247e5b8cd82cd1277922e06a7f1100e0c673394dc6ba85ec009c7a9f699",
+          "sha1": "acc69f7319cdb0105b46a013ac95318071df15d7",
+          "md5": "52c6cf4610cd154113540a2948f6e3e1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf-3.0.0-beta01.kotlin_resources.zip",
+          "url": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01-kotlin_resources.kotlin_resources.zip",
+          "size": 1924,
+          "sha512": "7c63c7847d22aaa265af1fc6ae81f1a83cc6fe47f91432c2461e412c7c8cde4daa50dba2d71f7da12c3ee1d34b872ebe61557625c52e3fd27d7d74d732b6d3b2",
+          "sha256": "da7ed9655a414004e891f76b06b44d139aa949cb912fbedde0a562ec449d6923",
+          "sha1": "1dbe867b1612593d749f00e2b0fde43015f78976",
+          "md5": "bde4c2a5d076bcd1d0ecb773fca7f035"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "url": "jchucomponents-pdf-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "size": 2983,
+          "sha512": "4de4825ee809f9c79da96774b14fdeacd4acd5184024f0519ce032c8cbfbf33c2f45724e364cd963c01ca4d7e8b62abba0211fee126463ed2c6a5fffbae6ace1",
+          "sha256": "5bba2dc23fae6e870867ce75d41831b40fc3693bdb8e5c46a59d0c9dde5a858d",
+          "sha1": "d619183bf5ecd45a29b04b65cd4af15c8d5ee1a9",
+          "md5": "4a861e642d42d434a8a997ab719e84dd"
+        }
+      ]
+    }
+  ]
+}

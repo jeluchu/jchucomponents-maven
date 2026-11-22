@@ -1,0 +1,386 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-ui/3.0.0-beta01/jchucomponents-ui-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-ui",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-iosSimulatorArm64Main-3.0.0-beta01.klib",
+          "url": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01.klib",
+          "size": 926146,
+          "sha512": "13aba23f824eb3a422f5d559beaf8c9a7c6d07c02d81d88abf4c7a3f400d7ce8fecc77d317daae96254dca6b8b6435d41190457653e821ce1ca7326fcb19212a",
+          "sha256": "3452a8a6a1b70fb991800a8c78f9447eb9bd88082d31d8431d1ce453cb263e9b",
+          "sha1": "795065dc4a622456d2e41879a242086e5479110d",
+          "md5": "5eb0dbfb421a49016c03dea82bc3be9c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "size": 152316,
+          "sha512": "ecb8d2d68963cebe439d83bef8ca2efecb86be54dd69646533ba706e12b15e62cb1428a14567f4ab3a56c87a9dc6a9cfebd579d117aacc0bd9f69b7c23984c31",
+          "sha256": "4c04c1a936b4c1f7ddee098bb163501a497d02666382c6fa2929c478ce6570d7",
+          "sha1": "d9b89cecd6bb3deb513851d94def47302e6be3bc",
+          "md5": "e6c8664fd940b004d10c284de798c761"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-3.0.0-beta01.kotlin_resources.zip",
+          "url": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01-kotlin_resources.kotlin_resources.zip",
+          "size": 358,
+          "sha512": "9e1055b77b0d27fe0830e241040a169f9310d0bedf0bcebfd8e0f1d856795bc112398e4ef76a027e186321ad9adfeb984e646e41cdff334ae114354026919afb",
+          "sha256": "31db7cdbac32f06c4f5ba55f4c6469ca37b9fd6108c8b5049c69c94c08e92440",
+          "sha1": "289c081103525f93767f0e35bff20f7282919715",
+          "md5": "23c5a35e547780cd6d4007a4c1407f2c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "url": "jchucomponents-ui-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "size": 3259,
+          "sha512": "73f93d7994daf7570244782bc5e393e3078cbe45a7e68e80599f4dc4115003a520a493aacbe1c066926fad201344f18b9f39e1d8fa0bc755eb3a5d2157634787",
+          "sha256": "271f37c7bedbe203fc4c87d0ea19bf206b4cee5c1782d6599880e1f54ec1234e",
+          "sha1": "7eda303194e6e4afe5828e4b448a502178924e75",
+          "md5": "2135d663e57c1a0a4f295d0f82e81c4d"
+        }
+      ]
+    }
+  ]
+}

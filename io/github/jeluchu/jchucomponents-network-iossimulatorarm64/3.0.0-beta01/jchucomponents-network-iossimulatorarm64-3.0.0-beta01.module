@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-network/3.0.0-beta01/jchucomponents-network-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-network",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network-iosSimulatorArm64Main-3.0.0-beta01.klib",
+          "url": "jchucomponents-network-iossimulatorarm64-3.0.0-beta01.klib",
+          "size": 81938,
+          "sha512": "a59c87f328fd552b2be7540aacc213a3efe6d51e7f9128aacd53c8c0bc5fb5d2f592f813e832e5ae43b65b94e4073b2f8f1668e4171746590ae268db5f05d822",
+          "sha256": "ea4a50bb9300872fce88393f7ebbf8136e163f62677d903c85f5c4d51b842f89",
+          "sha1": "b359cf508b498c75775f965124a0f496af96271d",
+          "md5": "41fa0e659711212d583293187aa7a4f8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-network-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-network-iossimulatorarm64-3.0.0-beta01-sources.jar",
+          "size": 16862,
+          "sha512": "73283f64e83f31f259db3bbfc230d68ccae62c105037f40a56b14900120e1b68a4c3a9866937aacdf5dd03bdc3123333e71c32d79dc74515f933d06d29cf3b74",
+          "sha256": "e7a646715a203370d29a2ed1a664c193f4b9e7fad4e9a512b5eb6ab820aa566c",
+          "sha1": "3f3ea5ee1a56bc90285e2ecee690005e807721e8",
+          "md5": "75e09bdea4d53cdb7a27e11ab7f97dad"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "url": "jchucomponents-network-iossimulatorarm64-3.0.0-beta01-metadata.jar",
+          "size": 3551,
+          "sha512": "4f6d6a7352a338e0beaa9277f99341a27724507285e0c1cf4bbb4aaec0851d768328d4a5be546d861a2cb21d40a18c0601a81e5109e639c64868467403c6886e",
+          "sha256": "ec1f26543ba25f552965fedafd96890ae7584b3785ca658dd761f75fdf066412",
+          "sha1": "ffa140833e85ffee66549e6e1148fcf7bd61ca3a",
+          "md5": "9d78e080ce0892778f0425a780ddc942"
+        }
+      ]
+    }
+  ]
+}

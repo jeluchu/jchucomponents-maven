@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-prefs/3.0.0-beta01/jchucomponents-prefs-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-prefs",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-jvm-3.0.0-beta01.jar",
+          "url": "jchucomponents-prefs-jvm-3.0.0-beta01.jar",
+          "size": 126983,
+          "sha512": "4a10fc8aba2067e8703f3e2786d5cc5aef892b0f730281fb4eedcd6aefba558c263159d0a5a617134bf3e8a06eb5d08b8caf27826f18d459f71610e5a0ea6062",
+          "sha256": "048f13de87b580d2877413b1367aef383216d51cfb25f7559ab2ad2cb820aac8",
+          "sha1": "5e229b8e22111c67155fe21a10027abdca41c49a",
+          "md5": "e4c0335f120616c8da0e82c6770cb282"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-jvm-3.0.0-beta01.jar",
+          "url": "jchucomponents-prefs-jvm-3.0.0-beta01.jar",
+          "size": 126983,
+          "sha512": "4a10fc8aba2067e8703f3e2786d5cc5aef892b0f730281fb4eedcd6aefba558c263159d0a5a617134bf3e8a06eb5d08b8caf27826f18d459f71610e5a0ea6062",
+          "sha256": "048f13de87b580d2877413b1367aef383216d51cfb25f7559ab2ad2cb820aac8",
+          "sha1": "5e229b8e22111c67155fe21a10027abdca41c49a",
+          "md5": "e4c0335f120616c8da0e82c6770cb282"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-prefs-jvm-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-prefs-jvm-3.0.0-beta01-sources.jar",
+          "size": 11278,
+          "sha512": "50557b9729bb336662dc7676d4b153f4a69bcafbb48851c1ca6f059eb1affcb61620b8c8d413ef43337ca90e1c29fb2398e28ceb6137def071461b658d893407",
+          "sha256": "294b11f9fc45048dabecbce36643b3d9a5677211ac5cff885bf95f36e2ea9f3a",
+          "sha1": "d09bf39964da623ef5a85a5d069c5d2fc57aa1ad",
+          "md5": "d4cfcba51bdf121f87e7008dc6e5600b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-monitoring/3.0.0-beta01/jchucomponents-monitoring-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-monitoring",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring.aar",
+          "url": "jchucomponents-monitoring-android-3.0.0-beta01.aar",
+          "size": 37361,
+          "sha512": "258a45b4818d81a120c1af182e51f4f06ba536c42f612c65f59b99115026ecc3a3526191ef5f3d39b146aa8d14cf8b20333296de6bd18b1cee7d9bb25a3ae251",
+          "sha256": "7ac9cf37e9bb670a33c42dc1c151d075a3e3492f538c6c7db9d96de16765e8e0",
+          "sha1": "f03fa524b12ccd605e07e5a34c5c4f2704884fe2",
+          "md5": "778be53e9c5b756612931f8f90b237d5"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring.aar",
+          "url": "jchucomponents-monitoring-android-3.0.0-beta01.aar",
+          "size": 37361,
+          "sha512": "258a45b4818d81a120c1af182e51f4f06ba536c42f612c65f59b99115026ecc3a3526191ef5f3d39b146aa8d14cf8b20333296de6bd18b1cee7d9bb25a3ae251",
+          "sha256": "7ac9cf37e9bb670a33c42dc1c151d075a3e3492f538c6c7db9d96de16765e8e0",
+          "sha1": "f03fa524b12ccd605e07e5a34c5c4f2704884fe2",
+          "md5": "778be53e9c5b756612931f8f90b237d5"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-android-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-monitoring-android-3.0.0-beta01-sources.jar",
+          "size": 6853,
+          "sha512": "c565ea02258c29ade98a5bc7748ba49d54270b1d36a5e2565dd054733407cee5623ca7bdfb99c3ede4dc716bb6efa5d5658f5c1abcca1f7782935d5835f31db7",
+          "sha256": "218708e550d35f031155b5aa729c2c5570761d85ab59fe1fb8170c090b2ae252",
+          "sha1": "9b02360745bbbf5ed2202004330688666a614955",
+          "md5": "996b2c4562ec0d2abe9487188550277d"
+        }
+      ]
+    }
+  ]
+}

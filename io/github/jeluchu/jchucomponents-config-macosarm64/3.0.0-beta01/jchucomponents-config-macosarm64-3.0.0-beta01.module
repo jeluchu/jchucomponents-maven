@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-config/3.0.0-beta01/jchucomponents-config-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-config",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-macosArm64Main-3.0.0-beta01.klib",
+          "url": "jchucomponents-config-macosarm64-3.0.0-beta01.klib",
+          "size": 20353,
+          "sha512": "d7796c9cc650631dd5ccd16fd6cbc2a0510700767fd734ba70689cee7dc7bbd8d03742bdbfdfb1a2ab47d729009a57e9bbf66656ec825b82a6c2b5a53ea8f928",
+          "sha256": "25acbd7c21ebee4a9a4c6cfcfb3bf002c2aabacbbcd511dc6221886466ed0737",
+          "sha1": "5ef3b35d6f413f5f788a676b6869852be11e2d72",
+          "md5": "431c24861887a6163a2c9cd02aeaa8db"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-config-macosarm64-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-config-macosarm64-3.0.0-beta01-sources.jar",
+          "size": 6717,
+          "sha512": "6fa38972b869af0905c20f0ae8f7648753e5e69c36f2dacef8b55b90dad13693507a8c620c3e0f68a2324c837f9ebb85b932c3f5a3fa197aec6832f359a6d308",
+          "sha256": "f2aa435f410bb80d87eab67c3ef330eba007f77f79a9cd9d40f9981bbebc513a",
+          "sha1": "f492df4714ab2d8fe598bf4376215d6517bc69c5",
+          "md5": "6c4468a1a1fcb0dae5d227d467b58c00"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-macosarm64-3.0.0-beta01-metadata.jar",
+          "url": "jchucomponents-config-macosarm64-3.0.0-beta01-metadata.jar",
+          "size": 3172,
+          "sha512": "0dbc1d68f3cae822e899f96bcfe407c3145b2153e247009490f6a296f69e6fcae38c7b8ae765cb5e51cf863f78878921b3822fe788dff7bf7df80016ba19aa99",
+          "sha256": "ad684dcbceff895254fcea5fbab99136b8208cf11e409cb8bae214457725907c",
+          "sha1": "65ff44a3a00a8837305f757b079caabbaf5fa510",
+          "md5": "1be9a04f9956540eec3c2dcd55d11313"
+        }
+      ]
+    }
+  ]
+}

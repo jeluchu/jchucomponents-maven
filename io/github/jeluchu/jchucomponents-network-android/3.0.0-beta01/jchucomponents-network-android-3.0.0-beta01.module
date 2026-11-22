@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-network/3.0.0-beta01/jchucomponents-network-3.0.0-beta01.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-network",
+    "version": "3.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network.aar",
+          "url": "jchucomponents-network-android-3.0.0-beta01.aar",
+          "size": 128172,
+          "sha512": "d501e9200e6083c413bb8fc1d98a6238302d86a0bf5a6621d487790f9a0ae10ba4a24d464c6d7f005fd8bf927d8a21df243f2d965eeffaa93a2a07f6d29e1b74",
+          "sha256": "afc480d282cfa30cecadb8332c0eaf341b6c60eb9ec4e386ca05a082ceb42e26",
+          "sha1": "a4749a296b0b14c02b0af2f87af4c14901290d32",
+          "md5": "c357c6caba74c697e46b9453b5ed2b0c"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta01"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network.aar",
+          "url": "jchucomponents-network-android-3.0.0-beta01.aar",
+          "size": 128172,
+          "sha512": "d501e9200e6083c413bb8fc1d98a6238302d86a0bf5a6621d487790f9a0ae10ba4a24d464c6d7f005fd8bf927d8a21df243f2d965eeffaa93a2a07f6d29e1b74",
+          "sha256": "afc480d282cfa30cecadb8332c0eaf341b6c60eb9ec4e386ca05a082ceb42e26",
+          "sha1": "a4749a296b0b14c02b0af2f87af4c14901290d32",
+          "md5": "c357c6caba74c697e46b9453b5ed2b0c"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-network-android-3.0.0-beta01-sources.jar",
+          "url": "jchucomponents-network-android-3.0.0-beta01-sources.jar",
+          "size": 20081,
+          "sha512": "192f3e63937966d9f45e0f182a62e2479a7e9b4c6eec15853145951eba11379db59cc6dce994654339ed0f75eb681dc0b082e2a886b13b702f0e94b7d569e536",
+          "sha256": "d5bed7c38d5f9ad807fe8861b9094d79cdb77ff60e3b540c9af0e0559c8defba",
+          "sha1": "e9a1217967799eef808630b736c3a588f2325d63",
+          "md5": "ecd5bf0f9e93158364b30bbefa160df0"
+        }
+      ]
+    }
+  ]
+}
