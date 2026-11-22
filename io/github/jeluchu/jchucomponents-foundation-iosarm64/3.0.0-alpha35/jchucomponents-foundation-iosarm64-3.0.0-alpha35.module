@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-alpha35/jchucomponents-foundation-3.0.0-alpha35.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-iosArm64Main-3.0.0-alpha35.klib",
+          "url": "jchucomponents-foundation-iosarm64-3.0.0-alpha35.klib",
+          "size": 98754,
+          "sha512": "abdda1d67c411f361ff71281495a17aa79a814b5bd285ae630b569671db2a15b91dfb2b1d554c4c2199d030e73f33fad39b1e9c0f941ad91215d236ee139ea17",
+          "sha256": "7655c4b45e57b8eeee8ffcc043dc6a685c7123eb2f2819adc8a01803b13b8291",
+          "sha1": "24c00026ec7769030367176373bf6b693e29d4f0",
+          "md5": "27609ff885b764bf6e50bd9f6abd1ba4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-iosarm64-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-foundation-iosarm64-3.0.0-alpha35-sources.jar",
+          "size": 28847,
+          "sha512": "1381cbdda8872adf892b688ade629893609fea020566124b1f71a11ee9e6426f03ac008a5e83fcf860ff54920174f6a64cea11deb371fcf43d71558554156388",
+          "sha256": "0040d9c8a8a4e8f2de9590ab65fcea29fc2b65d7ef27419f9f54d7a54f4e630d",
+          "sha1": "20cdc735c5f3c03b5129d8ae1aa9daf668897bf3",
+          "md5": "5208c25a9a5a33e49cf735fdefe84d65"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-iosarm64-3.0.0-alpha35-metadata.jar",
+          "url": "jchucomponents-foundation-iosarm64-3.0.0-alpha35-metadata.jar",
+          "size": 7955,
+          "sha512": "a6c4248c85c724b1c02b91451126337e534e6b803a392096131a2803b16da86f39da4cbd2a4086e713d29a5d3ac779233b771639afea5ec6048da08f9751017f",
+          "sha256": "44ca5f8c4497f22727e7c8b147dbbbca0b77fc172c44289257f6015ea7d95b70",
+          "sha1": "51126163d2ada6066f9bc338c49df1984ed6ce9b",
+          "md5": "ac43499777204580aabdc481e43f1281"
+        }
+      ]
+    }
+  ]
+}

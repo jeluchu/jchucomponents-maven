@@ -1,0 +1,333 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-metadata-3.0.0-alpha35.jar",
+          "url": "jchucomponents-foundation-3.0.0-alpha35.jar",
+          "size": 24456,
+          "sha512": "a76464e48bd7ba6ff22d567b0c1850adddc76337ff9ed4ebc9af6e3a9ee4b0090969f987ff6fdf81b7f2e496ef1fffabdef8c4ab6d68dffe8c33d70fb9c7774d",
+          "sha256": "a1096f4312fd0c481c42758dcb022a61b45c0138f788faf2640df038afb1ff09",
+          "sha1": "3e90c939634627b22fff535d9ea82e15336b321f",
+          "md5": "15f8cfba16327c5a4c87ecc1de8d2b3d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-kotlin-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-foundation-3.0.0-alpha35-sources.jar",
+          "size": 28847,
+          "sha512": "1381cbdda8872adf892b688ade629893609fea020566124b1f71a11ee9e6426f03ac008a5e83fcf860ff54920174f6a64cea11deb371fcf43d71558554156388",
+          "sha256": "0040d9c8a8a4e8f2de9590ab65fcea29fc2b65d7ef27419f9f54d7a54f4e630d",
+          "sha1": "20cdc735c5f3c03b5129d8ae1aa9daf668897bf3",
+          "md5": "5208c25a9a5a33e49cf735fdefe84d65"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-android/3.0.0-alpha35/jchucomponents-foundation-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-android/3.0.0-alpha35/jchucomponents-foundation-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-android/3.0.0-alpha35/jchucomponents-foundation-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iosarm64/3.0.0-alpha35/jchucomponents-foundation-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iosarm64/3.0.0-alpha35/jchucomponents-foundation-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iosarm64/3.0.0-alpha35/jchucomponents-foundation-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iossimulatorarm64/3.0.0-alpha35/jchucomponents-foundation-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iossimulatorarm64/3.0.0-alpha35/jchucomponents-foundation-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-iossimulatorarm64/3.0.0-alpha35/jchucomponents-foundation-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-jvm/3.0.0-alpha35/jchucomponents-foundation-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-jvm/3.0.0-alpha35/jchucomponents-foundation-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-jvm/3.0.0-alpha35/jchucomponents-foundation-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-macosarm64/3.0.0-alpha35/jchucomponents-foundation-macosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-macosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-macosarm64/3.0.0-alpha35/jchucomponents-foundation-macosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-macosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-foundation-macosarm64/3.0.0-alpha35/jchucomponents-foundation-macosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-foundation-macosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    }
+  ]
+}

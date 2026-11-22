@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-navigation3-di/3.0.0-alpha35/jchucomponents-navigation3-di-3.0.0-alpha35.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-navigation3-di",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-di-iosSimulatorArm64Main-3.0.0-alpha35.klib",
+          "url": "jchucomponents-navigation3-di-iossimulatorarm64-3.0.0-alpha35.klib",
+          "size": 11769,
+          "sha512": "47fbc033a517e20ee2a7a22b744ded982134f1530fa031308e5521012fd371efb3a7f2f1f004886902150de8d56c30564b996e94713261013178096a1dfe2f2e",
+          "sha256": "91907e2089c245f04ea67ce434380a3f0ba3e12adbc57dc656677d83e43ceb2a",
+          "sha1": "ee4a2e6ba7129560b110066a015466d2e957033f",
+          "md5": "1b31f8ce931b52fa2e86cbc9edcf1c17"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-di-iossimulatorarm64-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-navigation3-di-iossimulatorarm64-3.0.0-alpha35-sources.jar",
+          "size": 1636,
+          "sha512": "d2c953d40ccf1418284342d6fec9f4923adbcf1ae4d1d492853aafb0fe2cee062199472bec48bd0d3fd9826b1b1ef14cca96aa7248cce7487b2b80b1e5d19c53",
+          "sha256": "e34c2f696d048fd1a854d85e7f6a7d91357b637cd17f64836b8b491e7b08e37b",
+          "sha1": "bcd39c8f7749e88aefe16da6926f92ed2472807d",
+          "md5": "9b5e5c0872ac9135d75b79c4109dbf2b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-di-iossimulatorarm64-3.0.0-alpha35-metadata.jar",
+          "url": "jchucomponents-navigation3-di-iossimulatorarm64-3.0.0-alpha35-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

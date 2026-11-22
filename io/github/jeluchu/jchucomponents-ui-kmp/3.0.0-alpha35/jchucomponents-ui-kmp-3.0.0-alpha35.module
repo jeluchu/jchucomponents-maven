@@ -1,0 +1,396 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-ui-kmp",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ui-kmp-metadata-3.0.0-alpha35.jar",
+          "url": "jchucomponents-ui-kmp-3.0.0-alpha35.jar",
+          "size": 115111,
+          "sha512": "60abd1310c28c2498323b3192677b371993c30c109c28efa0cc529d65c5cb1a4be0b405468d49199493afd8860ababefad000b1e82523be35dbc528ee7573348",
+          "sha256": "1c9fd3ea3ab22e8a409f30d4b81ca894ac7c9906e77ab89ac39e9ab9eb967666",
+          "sha1": "8c4d52513719af1378a9ce31ac64e1adeade723f",
+          "md5": "56a724f8946b34e2f8424346140b7984"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-ui-kmp-kotlin-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-ui-kmp-3.0.0-alpha35-sources.jar",
+          "size": 153300,
+          "sha512": "516f06decab98b3c849a34a3625ff1e2f3effcbaf4ce80325ff35e49b07feb3cb5dae2229a34c3cbf4f027ead5f95e48f9939e46709dd1438a7bedb97ac4592d",
+          "sha256": "493c1b2331e2dcdf53224f38c723606fab5c8603a179fa92cb901da72fa6beea",
+          "sha1": "8fb806799c90be36993dc11fc9c7eb5ec4fb511e",
+          "md5": "91c2d8b6754b7092c436f47fc0b6e50e"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-android/3.0.0-alpha35/jchucomponents-ui-kmp-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-android/3.0.0-alpha35/jchucomponents-ui-kmp-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-android/3.0.0-alpha35/jchucomponents-ui-kmp-android-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-android",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iosarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iosarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iosarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iosarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iosarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iosarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iossimulatorarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iossimulatorarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iossimulatorarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-iossimulatorarm64/3.0.0-alpha35/jchucomponents-ui-kmp-iossimulatorarm64-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-iossimulatorarm64",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-jvm/3.0.0-alpha35/jchucomponents-ui-kmp-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-jvm/3.0.0-alpha35/jchucomponents-ui-kmp-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-ui-kmp-jvm/3.0.0-alpha35/jchucomponents-ui-kmp-jvm-3.0.0-alpha35.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-ui-kmp-jvm",
+        "version": "3.0.0-alpha35"
+      }
+    }
+  ]
+}

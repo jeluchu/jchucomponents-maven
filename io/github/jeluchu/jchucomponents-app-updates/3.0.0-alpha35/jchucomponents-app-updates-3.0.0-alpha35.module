@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-app-updates",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-app-updates-3.0.0-alpha35.aar",
+          "url": "jchucomponents-app-updates-3.0.0-alpha35.aar",
+          "size": 20733,
+          "sha512": "d7b54ade083715141097670ae055563e0306fdfb219fc74328e04c2c7ff2c6f180bde26745b3a8fb7556fc5aaebc6449c7a183e2ca9497c7d12c9cefc73ca71b",
+          "sha256": "96e511a30c343b58bdbaa1866510409d8aee58b1e7db32f708ce01dd0c638679",
+          "sha1": "7ec12a6e829273b17b6f0cc8957c8c8c389b1e00",
+          "md5": "bf74b5c6e36b0711e01e49fb3c83a391"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.play",
+          "module": "app-update",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-app-updates-3.0.0-alpha35.aar",
+          "url": "jchucomponents-app-updates-3.0.0-alpha35.aar",
+          "size": 20733,
+          "sha512": "d7b54ade083715141097670ae055563e0306fdfb219fc74328e04c2c7ff2c6f180bde26745b3a8fb7556fc5aaebc6449c7a183e2ca9497c7d12c9cefc73ca71b",
+          "sha256": "96e511a30c343b58bdbaa1866510409d8aee58b1e7db32f708ce01dd0c638679",
+          "sha1": "7ec12a6e829273b17b6f0cc8957c8c8c389b1e00",
+          "md5": "bf74b5c6e36b0711e01e49fb3c83a391"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-app-updates-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-app-updates-3.0.0-alpha35-sources.jar",
+          "size": 5233,
+          "sha512": "22f68fc2c1583e8c8b22907f68c627a43b52ff8430058dbb9e8719baea112529f00794ff678d4642bb6a78358674312efd318dbac91d09564396d3a8643a956f",
+          "sha256": "a978034dacdd778ee19bd28f0063c6e6db2e41876dcf738633a9700825e4538d",
+          "sha1": "fd3f0ecb5270f28f98ce325edbf6393b0732c909",
+          "md5": "2681f64c287a19c99dfd1c5112a4ca13"
+        }
+      ]
+    }
+  ]
+}

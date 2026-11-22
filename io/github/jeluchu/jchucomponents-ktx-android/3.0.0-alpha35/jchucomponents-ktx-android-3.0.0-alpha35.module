@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-ktx/3.0.0-alpha35/jchucomponents-ktx-3.0.0-alpha35.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-ktx",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ktx.aar",
+          "url": "jchucomponents-ktx-android-3.0.0-alpha35.aar",
+          "size": 100651,
+          "sha512": "c3a1d90d6772fd047c3938cc29dcea8ec58efc8d0b12b7c3edf1453a7d80d4a6e38fa9fb539fb147fe03b979930c058589c8ed087957552c50acc1d20a2b49d0",
+          "sha256": "0c089b5dc14713def9d9ce7d84fd2477e2f5cfb8bf81a582ecca346e8f5cda6a",
+          "sha1": "73f91a9bf1cac39e5dbc984fd18edb66fac48269",
+          "md5": "f170d15b8d9f08e8525e01346c63d7e9"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.11.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-ktx.aar",
+          "url": "jchucomponents-ktx-android-3.0.0-alpha35.aar",
+          "size": 100651,
+          "sha512": "c3a1d90d6772fd047c3938cc29dcea8ec58efc8d0b12b7c3edf1453a7d80d4a6e38fa9fb539fb147fe03b979930c058589c8ed087957552c50acc1d20a2b49d0",
+          "sha256": "0c089b5dc14713def9d9ce7d84fd2477e2f5cfb8bf81a582ecca346e8f5cda6a",
+          "sha1": "73f91a9bf1cac39e5dbc984fd18edb66fac48269",
+          "md5": "f170d15b8d9f08e8525e01346c63d7e9"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-ktx-android-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-ktx-android-3.0.0-alpha35-sources.jar",
+          "size": 39754,
+          "sha512": "24b4ed57f01f2ddf63ee87f8623292d5ec54dd9913a3e649e31159e887940cd6fac7cf7f34bcf337004d6fdd3a51a596d04e21db5b9b2d25b7584b2b83ba1213",
+          "sha256": "73b8966fd84ee9df69fecef556840d61ff8e791aaf82c83489db61064c70d92c",
+          "sha1": "549e99a0e75049f708eff9e30bcd0a75b1a94b94",
+          "md5": "1f28f0f1c6af56f9d525a7edc3aff418"
+        }
+      ]
+    }
+  ]
+}

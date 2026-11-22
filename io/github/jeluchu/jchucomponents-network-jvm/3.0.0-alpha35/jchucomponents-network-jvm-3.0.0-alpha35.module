@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-network/3.0.0-alpha35/jchucomponents-network-3.0.0-alpha35.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-network",
+    "version": "3.0.0-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network-jvm-3.0.0-alpha35.jar",
+          "url": "jchucomponents-network-jvm-3.0.0-alpha35.jar",
+          "size": 107030,
+          "sha512": "6d9dc1ea4d1db25078e3752e03584b909632b192a1bc69cdd7b3b8826fe20fa7bde9d1c275d1c85eb2c78aaa3924affbfeab92910ed221cccfb0b3dc3bd538de",
+          "sha256": "4930d8b60aeb0577bb7a0f5f7c5323720ee7b3930b292fcebcb168234d39c8b8",
+          "sha1": "7e85127e3460cea004257b7fbba4fb8a0cf2ffee",
+          "md5": "66b7743c501857d44a49ca1b0addd8a2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-alpha35"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-network-jvm-3.0.0-alpha35.jar",
+          "url": "jchucomponents-network-jvm-3.0.0-alpha35.jar",
+          "size": 107030,
+          "sha512": "6d9dc1ea4d1db25078e3752e03584b909632b192a1bc69cdd7b3b8826fe20fa7bde9d1c275d1c85eb2c78aaa3924affbfeab92910ed221cccfb0b3dc3bd538de",
+          "sha256": "4930d8b60aeb0577bb7a0f5f7c5323720ee7b3930b292fcebcb168234d39c8b8",
+          "sha1": "7e85127e3460cea004257b7fbba4fb8a0cf2ffee",
+          "md5": "66b7743c501857d44a49ca1b0addd8a2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-network-jvm-3.0.0-alpha35-sources.jar",
+          "url": "jchucomponents-network-jvm-3.0.0-alpha35-sources.jar",
+          "size": 15520,
+          "sha512": "5421be5d941f6fdf4fea7423d146f1b06f1d0592d779924a43b8bdb7511d8bacdb31cb12fb812b0cf40ba581d88fd1c74f82dffde56fa58fafb1f9e7538b8335",
+          "sha256": "120646037c9bf15d3973cc95cfa1ed427d1b2c234f0f474e108cdfd7979a7ff3",
+          "sha1": "16c9bcd50454127280dac51aa4f7f0ebc19ef78a",
+          "md5": "4018c7fb075aade5114218f9b7b1a2f6"
+        }
+      ]
+    }
+  ]
+}
