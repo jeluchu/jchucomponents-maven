@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-bom",
+    "version": "3.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-monitoring",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-android",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-pdf",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-pay",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-prefs",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-room",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-qr",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-supabase",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-foundation",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-monitoring",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-android",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-pdf",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-pay",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-prefs",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-room",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-qr",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-supabase",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        }
+      ]
+    }
+  ]
+}

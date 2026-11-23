@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pdf/3.0.0-beta02/jchucomponents-pdf-3.0.0-beta02.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pdf",
+    "version": "3.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf.aar",
+          "url": "jchucomponents-pdf-android-3.0.0-beta02.aar",
+          "size": 94449,
+          "sha512": "0205225a0ef5158f260210cb0f890c25be42072a5ff366d80bd47f0369c4ece617f245b296bb7b8d878e3b5f42d81336acfd12ff515679ff90a9352e9a2326a1",
+          "sha256": "0597b3f3c3fd5d6eec7f58ef9f004a973f8dd096a1b1f24072c5c683d9a1b0b1",
+          "sha1": "3f228b440abb218aaeec013f3796a1292fc51dd7",
+          "md5": "4504b43a2ba2f6d59c6f951b48dbad57"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-navigation3",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-ui",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.13.0-rc01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pdf.aar",
+          "url": "jchucomponents-pdf-android-3.0.0-beta02.aar",
+          "size": 94449,
+          "sha512": "0205225a0ef5158f260210cb0f890c25be42072a5ff366d80bd47f0369c4ece617f245b296bb7b8d878e3b5f42d81336acfd12ff515679ff90a9352e9a2326a1",
+          "sha256": "0597b3f3c3fd5d6eec7f58ef9f004a973f8dd096a1b1f24072c5c683d9a1b0b1",
+          "sha1": "3f228b440abb218aaeec013f3796a1292fc51dd7",
+          "md5": "4504b43a2ba2f6d59c6f951b48dbad57"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pdf-android-3.0.0-beta02-sources.jar",
+          "url": "jchucomponents-pdf-android-3.0.0-beta02-sources.jar",
+          "size": 13741,
+          "sha512": "aa2343bfc7a939da60cd4c54bf776212c2c411cc3c75626bbaf7ac2fe823432bae1607060e22735082ce504a6a9bf72515196036950743e4edd5c7411bef49e7",
+          "sha256": "08296d5f71f7720c1053855107c5087c762388212fce0cc7202e8721d611b6f0",
+          "sha1": "7ea81f92ba53f158636520ef9f9f377c92a47d25",
+          "md5": "868b16b2906fae8738109b29806608f7"
+        }
+      ]
+    }
+  ]
+}

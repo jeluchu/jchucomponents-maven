@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-prefs/3.0.0-beta02/jchucomponents-prefs-3.0.0-beta02.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-prefs",
+    "version": "3.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-macosArm64Main-3.0.0-beta02.klib",
+          "url": "jchucomponents-prefs-macosarm64-3.0.0-beta02.klib",
+          "size": 56627,
+          "sha512": "cdcbf385ec1ecf5d00b863f0c8bfc61f7ef6a4b81cc59d279cd654f55b506bb007d9baa3889702cab9f6cffe1adbb1e9cee23e7bdc2157f2a212f38d20d86a5e",
+          "sha256": "930b4e2f0534cf3a1ac430288081c211ff1523c2c398f443ba43076bdab7c7f6",
+          "sha1": "9cbef6cd6913ceee78d0a43591da6616f4523683",
+          "md5": "4e399d1641fe111bfba5504e2aa4d6c9"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-prefs-macosarm64-3.0.0-beta02-sources.jar",
+          "url": "jchucomponents-prefs-macosarm64-3.0.0-beta02-sources.jar",
+          "size": 11706,
+          "sha512": "49b6b9f2f4fa04ff8d13d67e8f7a60adeb322bfc04b593695a64d84003d1c94770af02e9bfb00658b73086b370e183be892a0bd65e7da564a744501fecffb8aa",
+          "sha256": "2855fb39dd12f680e2e78f0c027a9c431ac902437bdd32693289f4d7f5f7a801",
+          "sha1": "9c6cdf1a187d5d0bf1d89fd8e24e5a2d7d6ea63a",
+          "md5": "b4a26cabba195ecaa5668cd3e4b58b05"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-prefs-macosarm64-3.0.0-beta02-metadata.jar",
+          "url": "jchucomponents-prefs-macosarm64-3.0.0-beta02-metadata.jar",
+          "size": 3348,
+          "sha512": "edb8be55c8802fd4bedb57c28fa9829f2dce55e55e110b25077ff497ccc9a7088f59fa437bbe7208b643e81ef0d7acdfe57f8ddf5f02ae23a285e441a605c96a",
+          "sha256": "7ea97d1bbce01d010e5ae7a9f2dea28e13f1901bb7f4c674b5fe616a73a297cf",
+          "sha1": "ce088630a7d1dbaa3fde80a64c2dbcab17185c73",
+          "md5": "6b671ef775cc48d50a842ae49443cd70"
+        }
+      ]
+    }
+  ]
+}

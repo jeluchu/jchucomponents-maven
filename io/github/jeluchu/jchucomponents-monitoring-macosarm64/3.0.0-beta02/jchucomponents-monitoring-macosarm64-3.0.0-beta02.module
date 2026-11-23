@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-monitoring/3.0.0-beta02/jchucomponents-monitoring-3.0.0-beta02.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-monitoring",
+    "version": "3.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-macosArm64Main-3.0.0-beta02.klib",
+          "url": "jchucomponents-monitoring-macosarm64-3.0.0-beta02.klib",
+          "size": 33662,
+          "sha512": "914ea612529b6b901bac947301632d497364e07f82506e2143760d55d5afde615900ac387a94734e1c13606aa6a0db3378faf1561dc621b7f18764b771fc229d",
+          "sha256": "97b88de5999d7a9b0be7a21219fe45fce4b051a68f02b54d9c49ad591bc0ae97",
+          "sha1": "43dc235d547f82dda3c09099e295b09be532164c",
+          "md5": "ae1952fda8693c6fcaeb96acb00c660d"
+        },
+        {
+          "name": "jchucomponents-monitoring-macosArm64Cinterop-jchuObjcMain-3.0.0-beta02.klib",
+          "url": "jchucomponents-monitoring-macosarm64-3.0.0-beta02-cinterop-jchuObjc.klib",
+          "size": 8257,
+          "sha512": "b3781c128cde3a1fc8f5aaffa356dc96ef4413299a11307651f5932602893795bf94e26a23a6342e32f48efbbe5a85d2401a836933afbc119ffac3d024010242",
+          "sha256": "3dece4bda266575d73a5b091c2164f0005549e51255013e52af894feadfc92c1",
+          "sha1": "4646d4e4369f958a34846e3e70ef18a2041ae42e",
+          "md5": "191c0746a76e3f3aba1865c88178df64"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-macosarm64-3.0.0-beta02-sources.jar",
+          "url": "jchucomponents-monitoring-macosarm64-3.0.0-beta02-sources.jar",
+          "size": 7555,
+          "sha512": "816773ccd104536e8358a3e932c54b22fd860e213b94f41b7e38d4b9aaf0a9456195c0cd0dc23e9b700e2df2d76663457030d779e5cb6311126ad2dbe1ffea8d",
+          "sha256": "090ad42fe71939005018623c4b44148b96f2fdff522d3a66a01b4bf7b5871230",
+          "sha1": "cbbaf7ef034f3d6908e83fd3027c3b75edfe4a24",
+          "md5": "53eeb369bbdb7c211aaa582307e98350"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-macosarm64-3.0.0-beta02-metadata.jar",
+          "url": "jchucomponents-monitoring-macosarm64-3.0.0-beta02-metadata.jar",
+          "size": 21861,
+          "sha512": "3f1fdaa0c1688024500628748323177cf6eb674d16b0ceb4159064c761cea7fec6edd9e770d0c863bd7acd3d60c290b783e6da437c719a58c5f25e2f3a7ba784",
+          "sha256": "ff4d409fd860667b1523681fb057d4adfb97cd22e661f81503b6644efcdc9f77",
+          "sha1": "c01b5914057ce2d50862617dbec67505e1c3932f",
+          "md5": "6e0ee1586119d2021e5f8f96778a9216"
+        }
+      ]
+    }
+  ]
+}

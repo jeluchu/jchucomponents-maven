@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-config/3.0.0-beta02/jchucomponents-config-3.0.0-beta02.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-config",
+    "version": "3.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-iosArm64Main-3.0.0-beta02.klib",
+          "url": "jchucomponents-config-iosarm64-3.0.0-beta02.klib",
+          "size": 20339,
+          "sha512": "d4202e33f4f03d952a1c61d7c81aaed9ab835ab7b21c082c5410d20c8cc568f506d4a42537aa540f2cd4940b9489baed0129e5803c43d4dae93cf6a528c14a53",
+          "sha256": "1f99d04e8228fd816c799370f85f67005dc2737179971220c23af7523e6d2187",
+          "sha1": "412aa462efdda804f3b1b2baf96beb9171479a83",
+          "md5": "0b5505d692093f7bb58133410e00d01d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-config-iosarm64-3.0.0-beta02-sources.jar",
+          "url": "jchucomponents-config-iosarm64-3.0.0-beta02-sources.jar",
+          "size": 6717,
+          "sha512": "6fa38972b869af0905c20f0ae8f7648753e5e69c36f2dacef8b55b90dad13693507a8c620c3e0f68a2324c837f9ebb85b932c3f5a3fa197aec6832f359a6d308",
+          "sha256": "f2aa435f410bb80d87eab67c3ef330eba007f77f79a9cd9d40f9981bbebc513a",
+          "sha1": "f492df4714ab2d8fe598bf4376215d6517bc69c5",
+          "md5": "6c4468a1a1fcb0dae5d227d467b58c00"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-iosarm64-3.0.0-beta02-metadata.jar",
+          "url": "jchucomponents-config-iosarm64-3.0.0-beta02-metadata.jar",
+          "size": 3172,
+          "sha512": "0dbc1d68f3cae822e899f96bcfe407c3145b2153e247009490f6a296f69e6fcae38c7b8ae765cb5e51cf863f78878921b3822fe788dff7bf7df80016ba19aa99",
+          "sha256": "ad684dcbceff895254fcea5fbab99136b8208cf11e409cb8bae214457725907c",
+          "sha1": "65ff44a3a00a8837305f757b079caabbaf5fa510",
+          "md5": "1be9a04f9956540eec3c2dcd55d11313"
+        }
+      ]
+    }
+  ]
+}
