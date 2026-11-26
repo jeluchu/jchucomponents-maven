@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-navigation3/3.0.0-beta05/jchucomponents-navigation3-3.0.0-beta05.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-navigation3",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-beta05.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-beta05.jar",
+          "size": 67789,
+          "sha512": "d580143ca218a583d406bd0c91d290648eae5ed9ea031b60ff4aa5146977a4638ba04d156cae5dfae4d83cb054e6588a89c27da6cf527ef9845edd552f9da96f",
+          "sha256": "f132482689084efcdb4d51704761e14108d9e10d39a3bb301a24df7d1ed32baf",
+          "sha1": "4e3c76230dc3e406c42c7f0f681cbe5cf8983f10",
+          "md5": "a3d6d1dc299ceb45d6758cfcfe9c0be0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-beta05.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-beta05.jar",
+          "size": 67789,
+          "sha512": "d580143ca218a583d406bd0c91d290648eae5ed9ea031b60ff4aa5146977a4638ba04d156cae5dfae4d83cb054e6588a89c27da6cf527ef9845edd552f9da96f",
+          "sha256": "f132482689084efcdb4d51704761e14108d9e10d39a3bb301a24df7d1ed32baf",
+          "sha1": "4e3c76230dc3e406c42c7f0f681cbe5cf8983f10",
+          "md5": "a3d6d1dc299ceb45d6758cfcfe9c0be0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-navigation3-jvm-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-navigation3-jvm-3.0.0-beta05-sources.jar",
+          "size": 15756,
+          "sha512": "e0f807bfd5f1c9278557eb012e06d483e36c392c0abb5ec60b37055aae2f5456d2cb98aa4038c4c456b4548fb87baffee975b203409c28af182359bc801babe6",
+          "sha256": "2da5dc28b1e347ec6354c7092041ec92ab0b5e4acd8718c25f692f8e55c940b8",
+          "sha1": "4a9808d49a1a51253aaf51343d273203ab5ac8a2",
+          "md5": "1e8a33fe4ec2975d09fc69441e88fbe7"
+        }
+      ]
+    }
+  ]
+}

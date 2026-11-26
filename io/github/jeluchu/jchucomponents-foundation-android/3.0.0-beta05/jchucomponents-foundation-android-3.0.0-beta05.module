@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-beta05/jchucomponents-foundation-3.0.0-beta05.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation.aar",
+          "url": "jchucomponents-foundation-android-3.0.0-beta05.aar",
+          "size": 92642,
+          "sha512": "c131b7ca4850471306d62733c558fb9ca0afc8d703654d040d0a1fbc7bfbdfe6ada53255f541624eddedd68d7b1f695b23ba4d12eec44ca2f11f7e84e28f155d",
+          "sha256": "681002ebaf3b770591fcf5e68b8315890eab507bd1606b44352554452154add3",
+          "sha1": "44ce47c7e04085cc2f6984d284b48ee58c3f9c8a",
+          "md5": "fe159cbf4e74c5b2cca93116bc2a965b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation.aar",
+          "url": "jchucomponents-foundation-android-3.0.0-beta05.aar",
+          "size": 92642,
+          "sha512": "c131b7ca4850471306d62733c558fb9ca0afc8d703654d040d0a1fbc7bfbdfe6ada53255f541624eddedd68d7b1f695b23ba4d12eec44ca2f11f7e84e28f155d",
+          "sha256": "681002ebaf3b770591fcf5e68b8315890eab507bd1606b44352554452154add3",
+          "sha1": "44ce47c7e04085cc2f6984d284b48ee58c3f9c8a",
+          "md5": "fe159cbf4e74c5b2cca93116bc2a965b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-android-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-foundation-android-3.0.0-beta05-sources.jar",
+          "size": 33146,
+          "sha512": "57a3c8afaaf67207771c54374f1a28f04d6974a55779bb602791266e8e33d847c66da0dc634dd51a6ceaf617c888b12f0868f51fbc069c36b391dee323a778a6",
+          "sha256": "d4e503dea61814684a6087735a3a0394f6a7a27cc88eef2a1975b8fcdcb0a4c9",
+          "sha1": "8de0b18a0e8a0f2c0a5c33667d64ff9d3c2b8a0a",
+          "md5": "07a1bd4a47195bc82767ae3d55959ca8"
+        }
+      ]
+    }
+  ]
+}

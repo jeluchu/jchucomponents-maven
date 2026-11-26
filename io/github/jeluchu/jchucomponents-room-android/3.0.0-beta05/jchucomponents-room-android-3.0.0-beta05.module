@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-room/3.0.0-beta05/jchucomponents-room-3.0.0-beta05.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-room",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta05"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-room.aar",
+          "url": "jchucomponents-room-android-3.0.0-beta05.aar",
+          "size": 20897,
+          "sha512": "311901e47247bac9d1d28ad98e99b54a2c532610c06e3b579a1053ee99b84b20597ed35cb1b63455f4bb810fc364a451406e2f51b2db6ab6936a3876549ce88e",
+          "sha256": "1b74aee2214b5ec9e10e0564b18b180a3d8ff87ab615efcf5a981238cc60fa22",
+          "sha1": "5e485b459b0747a967787b82b4d1639fac4bb3c3",
+          "md5": "81084912a42cc54b0eb808976141668b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta05"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-room.aar",
+          "url": "jchucomponents-room-android-3.0.0-beta05.aar",
+          "size": 20897,
+          "sha512": "311901e47247bac9d1d28ad98e99b54a2c532610c06e3b579a1053ee99b84b20597ed35cb1b63455f4bb810fc364a451406e2f51b2db6ab6936a3876549ce88e",
+          "sha256": "1b74aee2214b5ec9e10e0564b18b180a3d8ff87ab615efcf5a981238cc60fa22",
+          "sha1": "5e485b459b0747a967787b82b4d1639fac4bb3c3",
+          "md5": "81084912a42cc54b0eb808976141668b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-room-android-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-room-android-3.0.0-beta05-sources.jar",
+          "size": 4931,
+          "sha512": "c6612d6a72060e2fd50d333bab9cb490fed95dbf9480b5a9f64a775719f797253797dfcb2d20adfa4cc4208d4f2fde9c763b8d859b48f6c7dd3f3411e5c5ca94",
+          "sha256": "39bb5186a89a682578eececa72fb67118491e35d378809ea84b3f4a9caf7de09",
+          "sha1": "3c753c983c4f6f527809a30a879b0a473c601a73",
+          "md5": "a28321fa2400edfd1bdf5e0808180604"
+        }
+      ]
+    }
+  ]
+}

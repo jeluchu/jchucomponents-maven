@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pay/3.0.0-beta05/jchucomponents-pay-3.0.0-beta05.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pay",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta05"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay.aar",
+          "url": "jchucomponents-pay-android-3.0.0-beta05.aar",
+          "size": 76577,
+          "sha512": "054b9982fe76a896eaf5737a702b1fb55e0f906240cf7d6b7f9ecda3254229f31a3201a9503bd505ec78027e39258a0c9fd8019977873f2f72a7ebccf0385fbb",
+          "sha256": "19e036011adaad1c0dd7b9ce25a9b0e72c15756794418398d997813804e39cb0",
+          "sha1": "183986997cc6414886061b3b1acdbdcc1a028585",
+          "md5": "b608d25e50e7175542516a4908cbfc6f"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta05"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay.aar",
+          "url": "jchucomponents-pay-android-3.0.0-beta05.aar",
+          "size": 76577,
+          "sha512": "054b9982fe76a896eaf5737a702b1fb55e0f906240cf7d6b7f9ecda3254229f31a3201a9503bd505ec78027e39258a0c9fd8019977873f2f72a7ebccf0385fbb",
+          "sha256": "19e036011adaad1c0dd7b9ce25a9b0e72c15756794418398d997813804e39cb0",
+          "sha1": "183986997cc6414886061b3b1acdbdcc1a028585",
+          "md5": "b608d25e50e7175542516a4908cbfc6f"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pay-android-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-pay-android-3.0.0-beta05-sources.jar",
+          "size": 12984,
+          "sha512": "b2c1d055c2e870f6d169cf00d79116eae647a309c848122188b20caf6acff151bc322c465b4e8016827a57ae206e62c64a5a674fb24e7cce0a0c6daa4c93f8e1",
+          "sha256": "87aea18a96ed815809256ba9dc1b2d2c0cf3effe29d49b9c86d2e8dcc5aceac7",
+          "sha1": "306ec7493ef60388c652168548a34ab861fdd47c",
+          "md5": "a59489b366255c7ec70399dfc763ab18"
+        }
+      ]
+    }
+  ]
+}

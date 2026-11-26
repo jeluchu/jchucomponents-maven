@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-beta05/jchucomponents-foundation-3.0.0-beta05.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosArm64Main-3.0.0-beta05.klib",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-beta05.klib",
+          "size": 122617,
+          "sha512": "d7f19feb6fb5a329419a7cfea18d140f1b9f02f55ba01e69a7236a97f75a65d58ca337e7b2424ae6a8d8a0b319dc9e23c6531b47fd0f1a0c8d490717812b53df",
+          "sha256": "6db02656cb6ff87e4e2f94d05dd9bd30bfa4f9f33adc9d9b2890486a9a9037b0",
+          "sha1": "6fa7b707a52f0c649e66ec56db5606170a83a405",
+          "md5": "8676301c5b1369dacd7052a0729ebf85"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosarm64-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-beta05-sources.jar",
+          "size": 35424,
+          "sha512": "06824530555aee19471f528815f973c368baf8d198b12560ebdb332070a524bbebaa0580818fa63d6174135181590993d126035f57bdee9d6da036bbaa51082b",
+          "sha256": "181a07709b093ab760778d411ffd71994d6ad6c18032425f516df690a5a32580",
+          "sha1": "5739e5a275739f55b2d87da674dc158a59728d03",
+          "md5": "ccaf88d14464504389566f02c9f93120"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-macosarm64-3.0.0-beta05-metadata.jar",
+          "url": "jchucomponents-foundation-macosarm64-3.0.0-beta05-metadata.jar",
+          "size": 7998,
+          "sha512": "4ccb8fab989d7d0bd73ccbcec93bac656f31c14323163648ef98bd038a3d46a5971f39753db5ffb8eda62e5cde443279b921db3036516460720dfb102ed04cf6",
+          "sha256": "9d3e032bad8a189c6143a40121a0eba81cad00d18597a2b76dd3bda6df404470",
+          "sha1": "8337a8110c36cc25aaf91813320db86ee9682659",
+          "md5": "5403384246e25c85575b6b84020a7536"
+        }
+      ]
+    }
+  ]
+}

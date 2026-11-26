@@ -1,0 +1,347 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-room",
+    "version": "3.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta05"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-room-metadata-3.0.0-beta05.jar",
+          "url": "jchucomponents-room-3.0.0-beta05.jar",
+          "size": 4115,
+          "sha512": "27c6cf3dc60c2f1f6624d3a55581b8e89782f27c4a1c0e8d2729dc36c585a8384d30cec6a69a86ce16f97bf69b45f4fcb3fa7dd944d9df2c94954d8aab515dbd",
+          "sha256": "c799e8b9b6881861629427de3ce232c018a42f8d9cc596d5ef130cc28228834e",
+          "sha1": "f8d6d4bd7ce26b7a612203b30fafd9b15b711d9e",
+          "md5": "fe70c5cdb08582c3e680417abde1276e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-room-kotlin-3.0.0-beta05-sources.jar",
+          "url": "jchucomponents-room-3.0.0-beta05-sources.jar",
+          "size": 5207,
+          "sha512": "2cd83679fbfe502492480f4af41b8cbc64991f1f27b849e9c1191ecffaf7deb0cba7f1ab2e5dde45d0702c11982693356c792815bb896cdec1be697a4cacb983",
+          "sha256": "65d8be2373e012feacd1e65420b972a8d1f5b7c5aa8cf74ff9d23636917848bb",
+          "sha1": "8489c550e51e7bc6b2d328087c71c5d6d991b595",
+          "md5": "c99c71f4d1701edf00c452c851af1cef"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-android/3.0.0-beta05/jchucomponents-room-android-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-android",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-android/3.0.0-beta05/jchucomponents-room-android-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-android",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-android/3.0.0-beta05/jchucomponents-room-android-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-android",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iosarm64/3.0.0-beta05/jchucomponents-room-iosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iosarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iosarm64/3.0.0-beta05/jchucomponents-room-iosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iosarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iosarm64/3.0.0-beta05/jchucomponents-room-iosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iosarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iossimulatorarm64/3.0.0-beta05/jchucomponents-room-iossimulatorarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iossimulatorarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iossimulatorarm64/3.0.0-beta05/jchucomponents-room-iossimulatorarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iossimulatorarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-iossimulatorarm64/3.0.0-beta05/jchucomponents-room-iossimulatorarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-iossimulatorarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-jvm/3.0.0-beta05/jchucomponents-room-jvm-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-jvm",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-jvm/3.0.0-beta05/jchucomponents-room-jvm-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-jvm",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-jvm/3.0.0-beta05/jchucomponents-room-jvm-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-jvm",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-macosarm64/3.0.0-beta05/jchucomponents-room-macosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-macosarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-macosarm64/3.0.0-beta05/jchucomponents-room-macosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-macosarm64",
+        "version": "3.0.0-beta05"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../jchucomponents-room-macosarm64/3.0.0-beta05/jchucomponents-room-macosarm64-3.0.0-beta05.module",
+        "group": "io.github.jeluchu",
+        "module": "jchucomponents-room-macosarm64",
+        "version": "3.0.0-beta05"
+      }
+    }
+  ]
+}
