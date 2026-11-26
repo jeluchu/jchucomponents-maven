@@ -1,0 +1,231 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-supabase/3.0.0-beta04/jchucomponents-supabase-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-supabase",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase.aar",
+          "url": "jchucomponents-supabase-android-3.0.0-beta04.aar",
+          "size": 275539,
+          "sha512": "12522e6ec5a88261d40b59b5115227a564128f05f6965f990b40cd9476a2d07e04f53d66681345c6492c17a302737c3c259671c925e28a25ecb59d70a9a58a48",
+          "sha256": "9f3b938a603e2f0c4fb3b7a7b6d3e9238f95ef71195facf0f16edfeba0ca054c",
+          "sha1": "f16e14dc8cc91c8527cb6ea6468d6fda8259e8cd",
+          "md5": "c4210f6c859d7bbc02d69add72875c25"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase.aar",
+          "url": "jchucomponents-supabase-android-3.0.0-beta04.aar",
+          "size": 275539,
+          "sha512": "12522e6ec5a88261d40b59b5115227a564128f05f6965f990b40cd9476a2d07e04f53d66681345c6492c17a302737c3c259671c925e28a25ecb59d70a9a58a48",
+          "sha256": "9f3b938a603e2f0c4fb3b7a7b6d3e9238f95ef71195facf0f16edfeba0ca054c",
+          "sha1": "f16e14dc8cc91c8527cb6ea6468d6fda8259e8cd",
+          "md5": "c4210f6c859d7bbc02d69add72875c25"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-supabase-android-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-supabase-android-3.0.0-beta04-sources.jar",
+          "size": 19133,
+          "sha512": "431b11821e801a690de29bbff49508c8789cb31729538877bb33baff1acea3ec4122b8ce4463d088f07fb5bf876ceb1a17b7e0448a9786c8af054a64d85d01f2",
+          "sha256": "1ac0814b68893ab50863b5244fbac7c4b674b079323b6c4056bcf3904d752578",
+          "sha1": "3c2917061f66903ab4d26888b6181b0dac9cc98c",
+          "md5": "1442c8ea93a0f1d5f994ffbb97478949"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-config/3.0.0-beta04/jchucomponents-config-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-config",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-jvm-3.0.0-beta04.jar",
+          "url": "jchucomponents-config-jvm-3.0.0-beta04.jar",
+          "size": 15910,
+          "sha512": "ea3840490d05ee95a2f62e79e9040c30fcac4cf2fa02a46beae3f79d1c6af263419e5a9728e8eefa08bb2b68e451a4d4687a12fad9c239c44c1b9a074ea6f787",
+          "sha256": "6efb7592fedba1ffe061421fbd661a191e90ef80b0df1a776e27c5d1b3b0d913",
+          "sha1": "8f5442ed00c6f0d209097fa1528c34094f6abb66",
+          "md5": "2762d2621f5443c57ed3a95cdc3eba39"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-config-jvm-3.0.0-beta04.jar",
+          "url": "jchucomponents-config-jvm-3.0.0-beta04.jar",
+          "size": 15910,
+          "sha512": "ea3840490d05ee95a2f62e79e9040c30fcac4cf2fa02a46beae3f79d1c6af263419e5a9728e8eefa08bb2b68e451a4d4687a12fad9c239c44c1b9a074ea6f787",
+          "sha256": "6efb7592fedba1ffe061421fbd661a191e90ef80b0df1a776e27c5d1b3b0d913",
+          "sha1": "8f5442ed00c6f0d209097fa1528c34094f6abb66",
+          "md5": "2762d2621f5443c57ed3a95cdc3eba39"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-config-jvm-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-config-jvm-3.0.0-beta04-sources.jar",
+          "size": 6517,
+          "sha512": "a0cb3be0e12184cce84e8d2fff83f84d2bf51de75f21a3bdc8a4929a9b4e3ccc89704ebe0985fc31ccf21fb663d4a9d6cfd286febb5e0d2eba7cc64807bd9d41",
+          "sha256": "db841c6ff76a2558d657ca545b802d1fcb56be1cc5371a170e2d3c642dc0bde6",
+          "sha1": "31929497c4f1334ed9646a35cfebe5a03cf7eaef",
+          "md5": "816417e54d3029c6186a3b9435df5d51"
+        }
+      ]
+    }
+  ]
+}

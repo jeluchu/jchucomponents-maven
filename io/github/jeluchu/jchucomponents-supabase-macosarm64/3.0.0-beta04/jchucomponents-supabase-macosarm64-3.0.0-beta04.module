@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-supabase/3.0.0-beta04/jchucomponents-supabase-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-supabase",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase-macosArm64Main-3.0.0-beta04.klib",
+          "url": "jchucomponents-supabase-macosarm64-3.0.0-beta04.klib",
+          "size": 152682,
+          "sha512": "6cad392827e34bc22c3fd34bfbd3513f99266c47081da3c4aeace699928e0f0ed0ce68141d65383e683713a08555ed9db5d1b05f7fb3fd770c1440392190006a",
+          "sha256": "a26b75d2530249831f39d5a6c10f973fce5ac061c3211ce7161cd10dfd238cdc",
+          "sha1": "22d941e4a4f8e1ef29e6c2187d028bfc0171a2f4",
+          "md5": "f3eb22298192cffe5dcab02df232500a"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-supabase-macosarm64-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-supabase-macosarm64-3.0.0-beta04-sources.jar",
+          "size": 19133,
+          "sha512": "431b11821e801a690de29bbff49508c8789cb31729538877bb33baff1acea3ec4122b8ce4463d088f07fb5bf876ceb1a17b7e0448a9786c8af054a64d85d01f2",
+          "sha256": "1ac0814b68893ab50863b5244fbac7c4b674b079323b6c4056bcf3904d752578",
+          "sha1": "3c2917061f66903ab4d26888b6181b0dac9cc98c",
+          "md5": "1442c8ea93a0f1d5f994ffbb97478949"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-network",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "bom",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "auth-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "functions-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "postgrest-kt"
+        },
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-supabase-macosarm64-3.0.0-beta04-metadata.jar",
+          "url": "jchucomponents-supabase-macosarm64-3.0.0-beta04-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

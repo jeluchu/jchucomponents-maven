@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-monitoring/3.0.0-beta04/jchucomponents-monitoring-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-monitoring",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iosSimulatorArm64Main-3.0.0-beta04.klib",
+          "url": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04.klib",
+          "size": 33712,
+          "sha512": "0531c1a2bbd72b82da2614bb48aaca03f40a4ff974cceeabf1e9a10e009aa8466192f0a1a3f41bd0003980cc15118f86fd778345da8c9be67cd254607c67e3dd",
+          "sha256": "0898432da10bb6d532c083c493e18d572c0caa01cd76745ffc5e14df3b213a64",
+          "sha1": "c0e66915f59eb5a83da7f66010df3438a120c47d",
+          "md5": "8411f8362e4594d22c481cbb7777d0db"
+        },
+        {
+          "name": "jchucomponents-monitoring-iosSimulatorArm64Cinterop-jchuObjcMain-3.0.0-beta04.klib",
+          "url": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04-cinterop-jchuObjc.klib",
+          "size": 8372,
+          "sha512": "aa2786fc9f14a28b15f0b9b04a1c99df02ecd76103052a89c54ea6cbb386f19ae4177a263124fdfeb53a5ba6cf296d8a95810726eebd6695e4ced2b26620d75a",
+          "sha256": "546e9b77c9efbf8d7a112975419ee4073415b90b802fdd4046cbdb711591cc06",
+          "sha1": "e133788c91fe8d509bee43d79978e2db603c51f8",
+          "md5": "b312163f03f91ef584e71cefbbd4a89e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04-sources.jar",
+          "size": 7555,
+          "sha512": "816773ccd104536e8358a3e932c54b22fd860e213b94f41b7e38d4b9aaf0a9456195c0cd0dc23e9b700e2df2d76663457030d779e5cb6311126ad2dbe1ffea8d",
+          "sha256": "090ad42fe71939005018623c4b44148b96f2fdff522d3a66a01b4bf7b5871230",
+          "sha1": "cbbaf7ef034f3d6908e83fd3027c3b75edfe4a24",
+          "md5": "53eeb369bbdb7c211aaa582307e98350"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04-metadata.jar",
+          "url": "jchucomponents-monitoring-iossimulatorarm64-3.0.0-beta04-metadata.jar",
+          "size": 21861,
+          "sha512": "3f1fdaa0c1688024500628748323177cf6eb674d16b0ceb4159064c761cea7fec6edd9e770d0c863bd7acd3d60c290b783e6da437c719a58c5f25e2f3a7ba784",
+          "sha256": "ff4d409fd860667b1523681fb057d4adfb97cd22e661f81503b6644efcdc9f77",
+          "sha1": "c01b5914057ce2d50862617dbec67505e1c3932f",
+          "md5": "6e0ee1586119d2021e5f8f96778a9216"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-foundation/3.0.0-beta04/jchucomponents-foundation-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-foundation",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-jvm-3.0.0-beta04.jar",
+          "url": "jchucomponents-foundation-jvm-3.0.0-beta04.jar",
+          "size": 104049,
+          "sha512": "ed81bc17a6cc5cde368598ad4eb36ca98eb3c1d2018ac66f11123d2167b5e43d11d30f92a7fb95113d2587b856da485630571fc0520e22f0b412c5d9637dfdfa",
+          "sha256": "34730868fab6800b1740eb01bceca066fc596f8c95afa606f5ca45e3297e4076",
+          "sha1": "8d7af7be1cda7697e059d63a7d1c9154c6681f63",
+          "md5": "144f08e6a5d10dfdd49a18bae23f260f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-foundation-jvm-3.0.0-beta04.jar",
+          "url": "jchucomponents-foundation-jvm-3.0.0-beta04.jar",
+          "size": 104049,
+          "sha512": "ed81bc17a6cc5cde368598ad4eb36ca98eb3c1d2018ac66f11123d2167b5e43d11d30f92a7fb95113d2587b856da485630571fc0520e22f0b412c5d9637dfdfa",
+          "sha256": "34730868fab6800b1740eb01bceca066fc596f8c95afa606f5ca45e3297e4076",
+          "sha1": "8d7af7be1cda7697e059d63a7d1c9154c6681f63",
+          "md5": "144f08e6a5d10dfdd49a18bae23f260f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-foundation-jvm-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-foundation-jvm-3.0.0-beta04-sources.jar",
+          "size": 32985,
+          "sha512": "179fb0fce13610bc24369e107d7adb95b859480779e8775aa9d852bbafd142ea1dd2c164ff6216714bdf974a832ca89c53743654943c9fabd04e459c498be29d",
+          "sha256": "5bbdfa4234b529a28d607fad5a5355aae32a5a81b18225c9b1db43aa4a589118",
+          "sha1": "358322983e6a7cc4919806854db2ac17642543bb",
+          "md5": "89a751365e53600f071a0a8c11a19ff2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../jchucomponents-pay/3.0.0-beta04/jchucomponents-pay-3.0.0-beta04.module",
+    "group": "io.github.jeluchu",
+    "module": "jchucomponents-pay",
+    "version": "3.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosArm64Main-3.0.0-beta04.klib",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-beta04.klib",
+          "size": 62057,
+          "sha512": "bf2910c467b48a0cd78ec12851d98ed3cfeca18596b69f967d77de6754c9b6ca31c6a7f577f7fbe3945e5bfefd7c0932cb2738d4ff184cfd0d9e70b689200b10",
+          "sha256": "cea0d227873e64d574b03c7ee2810d2aa7b13090f8c80ddb2d2cb4a40f3492bc",
+          "sha1": "483e585e498cca5377258d8bf602b3124e3ab36f",
+          "md5": "3872a006287f59d5de7a226ffb0dc3b7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosarm64-3.0.0-beta04-sources.jar",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-beta04-sources.jar",
+          "size": 12984,
+          "sha512": "b2c1d055c2e870f6d169cf00d79116eae647a309c848122188b20caf6acff151bc322c465b4e8016827a57ae206e62c64a5a674fb24e7cce0a0c6daa4c93f8e1",
+          "sha256": "87aea18a96ed815809256ba9dc1b2d2c0cf3effe29d49b9c86d2e8dcc5aceac7",
+          "sha1": "306ec7493ef60388c652168548a34ab861fdd47c",
+          "md5": "a59489b366255c7ec70399dfc763ab18"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jeluchu",
+          "module": "jchucomponents-config",
+          "version": {
+            "requires": "3.0.0-beta04"
+          }
+        },
+        {
+          "group": "com.revenuecat.purchases",
+          "module": "purchases-kmp-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jchucomponents-pay-iosarm64-3.0.0-beta04-metadata.jar",
+          "url": "jchucomponents-pay-iosarm64-3.0.0-beta04-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
